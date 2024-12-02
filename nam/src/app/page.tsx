@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
 import SearchBar from "./components/searchBar";
+import { NavBar } from "./components/navBar";
 
 export default function Home() {
   return (
-    <div className="brand-blue">
+    <div>
       <div className="flex justify-between mx-auto mt-20 size-16 w-[90vw]">
         <div className="h-96 flex-none">
           <Image
@@ -22,6 +23,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <NavBar />
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
     </div>

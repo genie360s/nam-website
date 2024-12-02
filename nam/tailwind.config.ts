@@ -13,6 +13,7 @@ export default {
         // foreground: "var(--foreground)",
         'brand-blue' : '#071E3B',
         'brand-copper' : '#DEAD6B',
+        'off-white' : "FAF9F6",
       },
     },
   },
