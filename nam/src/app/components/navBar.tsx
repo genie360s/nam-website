@@ -18,7 +18,7 @@ export function NavBar() {
           Legal Practice
         </div>
       </Link>
-      <Link href="/Legal">
+      <Link href="/Blogs">
         <div className="bg-transparent border border-brand-copper rounded-full py-1 text-center text-off-white hover:text-brand-copper  w-48">
           Blogs
         </div>
