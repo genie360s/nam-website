@@ -3,6 +3,7 @@ import Image from "next/image";
 import SearchBar from "../components/searchBar";
 import { NavBar } from "../components/navBar";
 import { Footer } from "../components/footer";
+import ExpertiseCard from "../components/expertiseCard";
 
 export default function Expertise() {
   return (
@@ -44,17 +45,116 @@ export default function Expertise() {
         </div>
       </div>
       {/* the services */}
-      
+
       <div className="mx-auto mt-[10vh] w-[60vw] grid grid grid-rows-3 grid-flow-col grid-cols-3 gap-4  ">
-        <div className="col-span-1 h-48 bg-white rounded-lg"></div>
-        <div className="col-span-1 h-48  bg-white rounded-lg"></div>
-        <div className="col-span-1 h-48 bg-white rounded-lg"></div>
-        <div className="col-span-1 h-48 bg-white rounded-lg"></div>
-        <div className="col-span-1 h-48  bg-white rounded-lg"></div>
-        <div className="col-span-1 h-48 bg-white rounded-lg"></div>
-        <div className="col-span-1 h-48 bg-white rounded-lg"></div>
-        <div className="col-span-1 h-48  bg-white rounded-lg"></div>
-        <div className="col-span-1 h-48 bg-white rounded-lg"></div>
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
+        <ExpertiseCard
+          imageUrl="/images/why/nam-06.png"
+          buttonText="View More"
+          modalContent={
+            <div className="text-center text-brand-blue flex items-center justify-center ">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
+                Explore Dar es Salaam
+              </div>
+              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+            </div>
+          }
+        />
       </div>
       {/* footer */}
       <Footer />
