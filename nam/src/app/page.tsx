@@ -223,7 +223,7 @@ export default function Home() {
             </span>{" "}
           </h3>
           <p className="text-justify text-off-white text-lg mt-4">
-            Nicole's passion for helping individuals and families settle into
+            Nicole&apos;s passion for helping individuals and families settle into
             Dar es Salaam has transformed into the leading destination service
             provider in the country. Her service covers all aspects of
             relocation, from ticketing and visa processing to airport transfers,
@@ -231,7 +231,7 @@ export default function Home() {
             comfort and convenience.
           </p>
           <p className="text-justify text-off-white text-lg mt-5">
-            Nicole's impressive career includes roles at NAM & Associates,
+            Nicole&apos;s impressive career includes roles at NAM & Associates,
             Bowmans, PwC, and more, honing her legal and business expertise.
             With a Postgraduate Diploma in Legal Practice and a First Class
             Honours LLB from the University of Leeds, she is a trusted leader in
@@ -240,10 +240,10 @@ export default function Home() {
             Lawyers Association.
           </p>
           <p className="text-justify text-off-white text-lg mt-5">
-            If you’re planning a move to Dar es Salaam, let Nicole's expertise
+            If you’re planning a move to Dar es Salaam, let Nicole&apos;s expertise
             make your transition seamless and stress-free. Contact us today to
             learn how we can assist you in every step of your journey, ensuring
-            a comfortable and convenient stay. Don't let the challenges of
+            a comfortable and convenient stay. Don&apos;t let the challenges of
             relocation hinder your new beginnings—reach out to the leading
             destination service provider in the country and experience peace of
             mind.

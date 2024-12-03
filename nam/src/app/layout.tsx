@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto, Playwrite_IT_Moderna } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "./globals.css";
 
@@ -15,9 +15,7 @@ const roboto = Roboto({
   weight: ['400'], // Specify desired font weights
 });
 
-const playwriteITModerna = Playwrite_IT_Moderna({
-  weight: ['400'], // Specify desired font weights
-});
+
 
 export default function RootLayout({
   children,
