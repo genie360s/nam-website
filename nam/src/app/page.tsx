@@ -124,7 +124,7 @@ export default function Home() {
       </div>
       <div className="mx-auto grid grid-rows-3 grid-flow-col gap-8 w-[80vw] mt-[10vh]">
         <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-blue-500 rounded-full"></div>
+          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-06.png')] bg-cover rounded-full"></div>
           <div className="col-span-3 m-2 bg-card-bg rounded-lg">
             <div className="grid grid-rows-2 px-5 py-3">
               <div className="row font-semibold text-brand-blue text-lg">
@@ -138,7 +138,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-blue-500 rounded-full"></div>
+          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-03.png')] bg-cover  rounded-full"></div>
           <div className="col-span-3 m-2 bg-card-bg rounded-lg">
             <div className="grid grid-rows-2 px-5 py-3">
               <div className="row font-semibold text-brand-blue text-lg">
@@ -152,7 +152,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-blue-500 rounded-full"></div>
+          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-01.png')] bg-cover  rounded-full"></div>
           <div className="col-span-3 m-2 bg-card-bg rounded-lg">
             <div className="grid grid-rows-2 px-5 py-3">
               <div className="row font-semibold text-brand-blue text-lg">
@@ -166,7 +166,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-blue-500 rounded-full"></div>
+          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-02.png')] bg-cover rounded-full"></div>
           <div className="col-span-3 m-2 bg-card-bg rounded-lg">
             <div className="grid grid-rows-2 px-5 py-3">
               <div className="row font-semibold text-brand-blue text-lg">
@@ -180,7 +180,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-blue-500 rounded-full"></div>
+          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-04.png')] bg-cover rounded-full"></div>
           <div className="col-span-3 m-2 bg-card-bg rounded-lg">
             <div className="grid grid-rows-2 px-5 py-3">
               <div className="row font-semibold text-brand-blue text-lg">
@@ -194,7 +194,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-blue-500 rounded-full"></div>
+          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-05.png')] bg-cover rounded-full"></div>
           <div className="col-span-3 m-2 bg-card-bg rounded-lg">
             <div className="grid grid-rows-2 px-5 py-3">
               <div className="row font-semibold text-brand-blue text-lg">
