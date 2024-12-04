@@ -48,7 +48,7 @@ export default function Expertise() {
 
       <div className="mx-auto mt-[10vh] w-[60vw] grid grid grid-rows-3 grid-flow-col grid-cols-3 gap-4  ">
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/orientation.jpeg"
           buttonText="Orientation Tour"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -76,7 +76,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/concierge.jpeg"
           buttonText="Concierge Services"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -104,7 +104,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/temporary.jpeg"
           buttonText="Temporary Housing"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -130,7 +130,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/house.jpeg"
           buttonText="Home Search"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -155,7 +155,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/education.jpeg"
           buttonText="Education"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -177,12 +177,12 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/settling.jpeg"
           buttonText="Settling In"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
               <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
-                Setttling In
+                Settling In
               </div>
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
@@ -204,7 +204,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/housekeep.jpg"
           buttonText="Maintenance & Upkeep"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -225,7 +225,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/departure.jpeg"
           buttonText="Departure Services"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -247,7 +247,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/why/nam-06.png"
+          imageUrl="/images/expertise/tourism.jpeg"
           buttonText="Tourism"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
