@@ -56,7 +56,7 @@ export default function Expertise() {
                 Orientation Tour
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-justify w-[20vw] text-gray-700 mt-[6vh]">
+                <ul className="list-disc list-inside space-y-1 text-justify w-[20vw] text-gray-700 mt-[10vh] mb-8">
                   <li>Create excitement and manage relocation expectations.</li>
                   <li>
                     Identify key costs early to save on relocation expenses.
@@ -84,7 +84,7 @@ export default function Expertise() {
                 Concierge Services
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-justify w-[20vw] mt-[6vh] text-gray-700">
+                <ul className="list-disc list-inside space-y-1 text-justify w-[20vw] mt-[10vh] mb-8 text-gray-700">
                   <li>Plan and book flights for employees and families.</li>
                   <li>Share updated travel restrictions information.</li>
                   <li>
@@ -112,7 +112,7 @@ export default function Expertise() {
                 Temporary Housing
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
                   <li>
                     Secure temporary accommodations like serviced apartments or
                     short-term rentals.
@@ -138,7 +138,7 @@ export default function Expertise() {
                 Home Search
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
                   <li>Assess client preferences and budget for housing.</li>
                   <li>Research and shortlist suitable properties.</li>
                   <li>
@@ -163,7 +163,7 @@ export default function Expertise() {
                 Education
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
                   <li>Research and recommend suitable schools.</li>
                   <li>
                     Assist with application, enrollment, and admissions
@@ -185,7 +185,7 @@ export default function Expertise() {
                 Settling In
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
                   <li>
                     Offer insights into healthcare access and insurance needs.
                   </li>
@@ -212,7 +212,7 @@ export default function Expertise() {
                 Maintenance & Upkeep
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
                   <li>
                     Manage work and residence permit applications and renewals.
                   </li>
@@ -233,7 +233,7 @@ export default function Expertise() {
                 Departure Services
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
                   <li>
                     Support lease termination and deregistration processes.
                   </li>
@@ -255,7 +255,7 @@ export default function Expertise() {
                 Tourism
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
                   <li>
                     Relax on Zanzibar’s beaches and explore its rich heritage.
                   </li>
