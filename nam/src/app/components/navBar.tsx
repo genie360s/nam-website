@@ -1,28 +1,33 @@
-//components/NavBar.tsx
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 export function NavBar() {
+  const pathname = usePathname();
+
+  const navItems = [
+    { href: "/", label: "Home" },
+    { href: "/Expertise", label: "Our Expertise" },
+    { href: "/Legal", label: "Legal Practice" },
+    { href: "/Blogs", label: "Blogs" },
+  ];
+
   return (
-    <div className="mx-auto flex justify-center gap-x-4 w-[80vw] py-2 ">
-      <Link href="/">
-        <div className="bg-transparent border border-brand-copper rounded-full py-1 text-center  text-brand-copper w-48">
-          Home
-        </div>
-      </Link>
-      <Link href="/Expertise">
-        <div className="bg-transparent border border-brand-copper rounded-full py-1 text-center  text-off-white hover:text-brand-copper w-48">
-          Our Expertise
-        </div>
-      </Link>
-      <Link href="/Legal">
-        <div className="bg-transparent border border-brand-copper rounded-full py-1 text-center text-off-white hover:text-brand-copper  w-48">
-          Legal Practice
-        </div>
-      </Link>
-      <Link href="/Blogs">
-        <div className="bg-transparent border border-brand-copper rounded-full py-1 text-center text-off-white hover:text-brand-copper  w-48">
-          Blogs
-        </div>
-      </Link>
+    <div className="mx-auto flex justify-center gap-x-4 w-[80vw] py-2">
+      {navItems.map((item) => (
+        <Link key={item.href} href={item.href}>
+          <div
+            className={`border border-brand-copper rounded-full py-1 text-center w-48 
+              ${
+                pathname === item.href
+                  ? "bg-brand-copper text-brand-blue"
+                  : "bg-transparent text-off-white hover:text-brand-copper"
+              }
+            `}
+          >
+            {item.label}
+          </div>
+        </Link>
+      ))}
     </div>
   );
 }
