@@ -5,6 +5,7 @@ import { NavBar } from "./components/navBar";
 import GoogleMapEmbed from "./components/googleMapEmbed";
 import { Footer } from "./components/footer";
 import { Borel } from "next/font/google";
+import ContactCard from "./components/contactCard";
 
 const borel = Borel({
   subsets: ["latin"],
@@ -277,38 +278,7 @@ export default function Home() {
           <div className="absolute inset-0  h-[62vh] mx-auto mt-[6vh] rounded-lg bg-[url('/images/bg.png')]"></div>
           <div className="absolute inset-0 mx-auto mt-[6vh] rounded-lg bg-white h-[62vh] w-[80vw]  bg-opacity-10 backdrop-blur-md  border-white/20 p-8  shadow-lg"></div>
           <div className="absolute inset-0 mx-auto mt-[10vh] rounded-lg  h-[62vh] w-[65vw] grid grid-cols-2 gap-4">
-            <div className="cols-1  ">
-              <div className="grid grid-rows">
-                <div className="row text-brand-blue font-medium">Full name</div>
-                <div className="row text-brand-blue">
-                  <input
-                    type="text"
-                    className="focus:outline-none border border-brand-blue w-[30vw] bg-transparent p-2 rounded-lg mt-4"
-                  />
-                </div>
-              </div>
-              <div className="grid grid-rows mt-[4vh]">
-                <div className="row text-brand-blue font-medium">Email</div>
-                <div className="row text-brand-blue">
-                  <input
-                    type="text"
-                    className="focus:outline-none border border-brand-blue w-[30vw] bg-transparent p-2 rounded-lg mt-4"
-                  />
-                </div>
-              </div>
-              <div className="grid grid-rows mt-[4vh]">
-                <div className="row text-brand-blue font-medium">Message</div>
-                <div className="row text-brand-blue">
-                  <textarea className="focus:outline-none border border-brand-blue w-[30vw] h-32 bg-transparent p-2 rounded-lg mt-4"></textarea>
-                </div>
-              </div>
-              <div className=" flex  text-center mt-[4vh] w-[30vw] rounded-full border border-brand-blue text-brand-blue">
-                <div className="flex-auto py-2">I Challenge You</div>
-                <div className="flex-auto animate-slidy py-2">
-                  <i className="bi bi-arrow-right-circle  text-lg "></i>
-                </div>
-              </div>
-            </div>
+            <ContactCard />
             <div className="cols-1 bg-card-bg rounded-lg h-[53vh] ">
               <div className="grid grid-rows ">
                 <div className="row text-brand-blue font-bold text-2xl text-center mt-4">
