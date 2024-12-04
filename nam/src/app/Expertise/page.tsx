@@ -49,109 +49,222 @@ export default function Expertise() {
       <div className="mx-auto mt-[10vh] w-[60vw] grid grid grid-rows-3 grid-flow-col grid-cols-3 gap-4  ">
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Orientation Tour"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Orientation Tour
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-justify w-[20vw] text-gray-700 mt-[6vh]">
+                  <li>Create excitement and manage relocation expectations.</li>
+                  <li>
+                    Identify key costs early to save on relocation expenses.
+                  </li>
+                  <li>
+                    Enable informed decisions for a smooth transition and family
+                    well-being.
+                  </li>
+                  <li>Provide insights into the local housing market.</li>
+                  <li>
+                    Facilitate cultural adaptation through early exposure to
+                    local culture.
+                  </li>
+                </ul>
+              </div>
             </div>
           }
         />
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Concierge Services"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Concierge Services
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-justify w-[20vw] mt-[6vh] text-gray-700">
+                  <li>Plan and book flights for employees and families.</li>
+                  <li>Share updated travel restrictions information.</li>
+                  <li>
+                    Offer a warm welcome upon arrival with meet-and-greet
+                    services.
+                  </li>
+                  <li>Arrange airport transfers to the destination.</li>
+                  <li>
+                    Provide guided tours of living areas and local amenities.
+                  </li>
+                  <li>
+                    Assist with rental car bookings and daily living tips.
+                  </li>
+                </ul>
+              </div>
             </div>
           }
         />
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Temporary Housing"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Temporary Housing
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                  <li>
+                    Secure temporary accommodations like serviced apartments or
+                    short-term rentals.
+                  </li>
+                  <li>
+                    Arrange leases, furnishings, utilities, and housekeeping.
+                  </li>
+                  <li>Manage maintenance and security services.</li>
+                  <li>
+                    Provide additional concierge support for specific tasks.
+                  </li>
+                </ul>
+              </div>
             </div>
           }
         />
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Home Search"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Home Search
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                  <li>Assess client preferences and budget for housing.</li>
+                  <li>Research and shortlist suitable properties.</li>
+                  <li>
+                    Offer property tours and assist with rental/purchase
+                    negotiations.
+                  </li>
+                  <li>
+                    Ensure legal compliance and provide local area information.
+                  </li>
+                  <li>Provide post-move support for a smooth transition.</li>
+                </ul>
+              </div>
             </div>
           }
         />
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Education"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Education
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                  <li>Research and recommend suitable schools.</li>
+                  <li>
+                    Assist with application, enrollment, and admissions
+                    processes.
+                  </li>
+                  <li>Guide families with special education needs.</li>
+                  <li>Provide ongoing school support throughout the year.</li>
+                </ul>
+              </div>
             </div>
           }
         />
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Settling In"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Setttling In
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                  <li>
+                    Offer insights into healthcare access and insurance needs.
+                  </li>
+                  <li>
+                    Introduce local culture, customs, and Swahili language
+                    basics.
+                  </li>
+                  <li>Explain transport options and safety considerations.</li>
+                  <li>
+                    Share employment opportunities and assist in hiring domestic
+                    workers.
+                  </li>
+                </ul>
+              </div>
             </div>
           }
         />
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Maintenance & Upkeep"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Maintenance & Upkeep
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                  <li>
+                    Manage work and residence permit applications and renewals.
+                  </li>
+                  <li>
+                    Provide guidance on visa and immigration requirements.
+                  </li>
+                </ul>
+              </div>
             </div>
           }
         />
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Departure Services"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Departure Services
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                  <li>
+                    Support lease termination and deregistration processes.
+                  </li>
+                  <li>
+                    Arrange utility disconnections and end-of-tenancy cleaning.
+                  </li>
+                  <li>Handle security deposit claims and returns.</li>
+                </ul>
+              </div>
             </div>
           }
         />
         <ExpertiseCard
           imageUrl="/images/why/nam-06.png"
-          buttonText="View More"
+          buttonText="Tourism"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[6vh] flex items-center justify-center">
-                Explore Dar es Salaam
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+                Tourism
               </div>
-              <div className="top-10">Well let&apos;s know where you can get good local food </div>
+              <div className="top-10">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[6vh]">
+                  <li>
+                    Relax on Zanzibar’s beaches and explore its rich heritage.
+                  </li>
+                  <li>
+                    Experience guided safaris in Serengeti, Ngorongoro, and
+                    Tarangire National Parks.
+                  </li>
+                </ul>
+              </div>
             </div>
           }
         />
