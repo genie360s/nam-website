@@ -86,7 +86,7 @@ export default function ContactCard() {
         </div>
         <button
           type="submit"
-          className="flex text-center mt-[4vh] w-[30vw] rounded-full border border-brand-blue text-brand-blue hover:bg-brand-copper hover:text-brand-blue hover:shadow-lg"
+          className="flex justify-center items-center text-center mt-[4vh] w-[30vw] rounded-full border border-brand-blue text-brand-blue hover:bg-brand-copper hover:text-brand-blue hover:shadow-lg transition-all duration-300"
         >
           <div className="flex-auto py-2 font-bold">I Challenge You</div>
           <div className="flex-auto animate-slidy py-2">

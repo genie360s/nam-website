@@ -20,6 +20,7 @@ export async function POST(req) {
 
     const mailOptions = {
       from: email,
+      replyTo: email, // Set the user's email for replies
       to: "nicole@namassociates.co.tz", // Replace with the recipient email
       subject: `New Message from ${fullName}`,
       text: `Message: ${message}\n\nFrom: ${fullName} (${email})`,

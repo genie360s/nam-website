@@ -250,10 +250,10 @@ export default function Home() {
             destination service provider in the country and experience peace of
             mind.
           </p>
-          <div className=" flex  text-center mt-[4vh] w-[20vw] rounded-full border border-brand-copper text-brand-copper">
-            <div className="flex-auto py-2">Talk To Nicole </div>
+          <div className=" flex  text-center mt-[4vh] w-[20vw] rounded-full border border-brand-copper text-brand-copper justify-center items-center cursor-pointer hover:bg-brand-copper hover:text-brand-blue transition-all duration-300">
+            <div className="flex-auto py-2 font-bold">Talk To Nicole </div>
             <div className="flex-auto animate-slidy py-2">
-              <i className="bi bi-arrow-right-circle  text-lg "></i>
+              <i className="bi bi-arrow-right-circle  font-bold text-lg "></i>
             </div>
           </div>
         </div>
