@@ -20,7 +20,7 @@ export async function POST(req) {
 
     const mailOptions = {
       from: email,
-      to: "alexgmkwizu@gmail.com", // Replace with the recipient email
+      to: "nicole@namassociates.co.tz", // Replace with the recipient email
       subject: `New Message from ${fullName}`,
       text: `Message: ${message}\n\nFrom: ${fullName} (${email})`,
     };
