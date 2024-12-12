@@ -74,7 +74,7 @@ export default function Home() {
       </div>
       {/* foreword */}
       <div className="mx-auto w-[80vw] mt-8">
-        <div className=" border-b-4 font-bold  text-2xl w-[5.5vw] py-2">
+        <div className=" border-b-4 font-bold  text-2xl w-[4.5em] py-2">
           Foreword
         </div>
         <div className="flex w-[80vw] gap-[10vw]">
@@ -121,7 +121,7 @@ export default function Home() {
       </div>
       {/* why ? */}
       <div className="mx-auto w-[80vw] mt-8">
-        <div className=" border-b-4 font-bold  text-2xl w-[4.5vw] py-2">
+        <div className=" border-b-4 font-bold  text-2xl w-[3em] py-2">
           Why ?
         </div>
       </div>
@@ -213,7 +213,7 @@ export default function Home() {
       </div>
       {/* founding partner */}
       <div className="mx-auto w-[80vw] mt-[10vh]">
-        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[20vw] py-2">
+        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[14em] py-2">
           Founding & Managing Partner
         </div>
       </div>
@@ -273,7 +273,7 @@ export default function Home() {
       </div>
       {/* cta */}
       <div className="mx-auto w-[80vw] mt-[10vh]">
-        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[17vw] py-2" id="contact">
+        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[12em] py-2" id="contact">
           Challenge Us To Help You
         </div>
       </div>
@@ -323,7 +323,7 @@ export default function Home() {
       </div>
       {/* locate us */}
       <div className="mx-auto w-[80vw]  ">
-        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[7vw] py-2">
+        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[5em] py-2">
           Locate Us
         </div>
       </div>
