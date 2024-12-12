@@ -48,7 +48,7 @@ export default function Expertise() {
 
       <div className="mx-auto mt-[10vh] w-[60vw] grid grid grid-rows-3 grid-flow-col grid-cols-3 gap-4  ">
         <ExpertiseCard
-          imageUrl="/images/expertise/orientation.jpeg"
+          imageUrl="/images/expertise/orientation_tour.jpeg"
           buttonText="Orientation Tour"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -76,7 +76,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/expertise/concierge.jpeg"
+          imageUrl="/images/expertise/concierge_services.jpeg"
           buttonText="Concierge Services"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -177,7 +177,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/expertise/settling.jpeg"
+          imageUrl="/images/expertise/settling_in.jpeg"
           buttonText="Settling In"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -204,7 +204,7 @@ export default function Expertise() {
           }
         />
         <ExpertiseCard
-          imageUrl="/images/expertise/housekeep.jpg"
+          imageUrl="/images/expertise/maintainance_and_upkeep.jpeg"
           buttonText="Maintenance & Upkeep"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
