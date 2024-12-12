@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import SearchBar from "./components/searchBar";
 import { NavBar } from "./components/navBar";
 import GoogleMapEmbed from "./components/googleMapEmbed";
@@ -250,12 +251,15 @@ export default function Home() {
             destination service provider in the country and experience peace of
             mind.
           </p>
+          {/* link */}
+          <Link href="/#contact">
           <div className=" flex  text-center mt-[4vh] w-[20vw] rounded-full border border-brand-copper text-brand-copper justify-center items-center cursor-pointer hover:bg-brand-copper hover:text-brand-blue transition-all duration-300">
             <div className="flex-auto py-2 font-bold">Talk To Nicole </div>
             <div className="flex-auto animate-slidy py-2">
               <i className="bi bi-arrow-right-circle  font-bold text-lg "></i>
             </div>
           </div>
+          </Link>
         </div>
         <div className="col-span-1  relative">
           <Image
@@ -269,7 +273,7 @@ export default function Home() {
       </div>
       {/* cta */}
       <div className="mx-auto w-[80vw] mt-[10vh]">
-        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[17vw] py-2">
+        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[17vw] py-2" id="contact">
           Challenge Us To Help You
         </div>
       </div>
@@ -281,7 +285,7 @@ export default function Home() {
             <ContactCard />
             <div className="cols-1 bg-card-bg rounded-lg h-[53vh] ">
               <div className="grid grid-rows ">
-                <div className="row text-brand-blue font-bold text-2xl text-center mt-4">
+                <div className="row text-brand-blue font-bold text-2xl text-center mt-4" >
                   Contact Information
                 </div>
                 <div className="row text-brand-blue font-normal text-lg text-center mt-4">
