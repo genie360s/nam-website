@@ -44,7 +44,7 @@ export default function Legal() {
 
       <div className="mx-auto mt-[10vh] w-[60vw] grid grid grid-rows-2 grid-flow-col grid-cols-3 gap-4  ">
         <LegalCard
-          imageUrl="/images/legal/corporate.jpg"
+          imageUrl="/images/legal/corporate_commercial.jpeg"
           buttonText="Corporate & Commercial Law"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -85,7 +85,7 @@ export default function Legal() {
           }
         />
         <LegalCard
-          imageUrl="/images/legal/labour.jpg"
+          imageUrl="/images/legal/labour_and_employment.jpeg"
           buttonText="Labour & Employment"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -114,7 +114,7 @@ export default function Legal() {
           }
         />
         <LegalCard
-          imageUrl="/images/legal/real-estate.jpg"
+          imageUrl="/images/legal/property_and_real_estate.jpeg"
           buttonText="Property  & Real Estate"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -139,7 +139,7 @@ export default function Legal() {
           }
         />
         <LegalCard
-          imageUrl="/images/legal/intellectual.jpg"
+          imageUrl="/images/legal/intellectual_property.jpeg"
           buttonText="Intellectual Property"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
@@ -165,7 +165,7 @@ export default function Legal() {
           }
         />
         <LegalCard
-          imageUrl="/images/legal/taxes.jpg"
+          imageUrl="/images/legal/taxation.jpeg"
           buttonText="Taxation"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
