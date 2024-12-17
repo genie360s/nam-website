@@ -35,8 +35,9 @@ export default function Home() {
         </div>
       </div>
       <NavBar />
-      <div className="flex justify-content gap-x-4 mx-auto mt-10 w-[80vw]">
-        <div className="flex-1  w-96 ">
+      <div className="lg:flex justify-content gap-x-4 lg:gap-x-1 mx-auto mt-10 w-[80vw] md:grid md:grid md:grid-cols-1">
+        {/* @todo: responsiveness ,landing page , footer , harmburger menu */}
+        <div className="flex-1  w-96  ">
           <Image
             src="/images/left-dar-img.png"
             alt="Nam & Associates"
@@ -44,20 +45,20 @@ export default function Home() {
             height={430}
           />
         </div>
-        <div className="flex-1 flex flex-col  w-96 ">
-          <div className="mt-[10vh]">
-            <div className="mx-auto bg-brand-copper w-[20vw] h-[1vh]"></div>
-            <div className="mx-auto font-semibold text-3xl w-[20vw] text-center mt-4 ">
+        <div className="flex-1 flex flex-col  w-96  ">
+          <div className="mt-[10vh] lg:mt-[0.5vh]">
+            <div className="mx-auto bg-brand-copper w-[20vw] h-[1vh] lg:h-[0.7vh]"></div>
+            <div className="mx-auto font-semibold text-3xl lg:text-xl w-[20vw] text-center mt-4 ">
               Relocate easily into the city of Dar es Salaam.
             </div>
-            <div className="mx-auto font-normal text-xl w-[20vw] text-center mt-4 ">
+            <div className="mx-auto font-normal text-lg w-[20vw] text-center mt-4 ">
               Discover Dar es Salaam with Confidence: <br /> A 360° relocation
               experience
             </div>
             <div className="mx-auto  flex  text-center mt-5 w-[20vw] rounded-full bg-brand-copper  text-brand-blue">
-              <div className="flex-auto py-2">Consult Us Today </div>
+              <div className="flex-auto py-2 lg:text-base">Consult Us Today </div>
               <div className="flex-auto animate-slidy py-2">
-                <i className="bi bi-arrow-right-circle  text-lg "></i>
+                <i className="bi bi-arrow-right-circle  text-lg lg:-ml-[1.5vw] "></i>
               </div>
             </div>
           </div>

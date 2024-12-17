@@ -43,8 +43,8 @@ export default function Blogs() {
         </div>
       </div>
       {/* the services */}
-
-      <div className="mx-auto mt-[10vh] w-[60vw] grid grid grid-rows-1 grid-flow-col grid-cols-3 gap-4  ">
+      
+      <div className="mx-auto mt-[10vh] w-[60vw] grid sm:grid-flow-row sm:grid-auto-rows  lg:grid-rows-1    lg:grid-cols-3 md:grid-cols-2  gap-4  "> 
         <BlogCard />
         <BlogCard />
         <BlogCard />

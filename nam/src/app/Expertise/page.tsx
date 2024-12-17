@@ -46,7 +46,7 @@ export default function Expertise() {
       </div>
       {/* the services */}
 
-      <div className="mx-auto mt-[10vh] w-[60vw] grid grid grid-rows-3 grid-flow-col grid-cols-3 gap-4  ">
+      <div className="mx-auto mt-[10vh] w-[60vw] grid sm:grid-flow-row sm:grid-auto-rows lg:grid-rows-3 lg:grid-flow-col lg:grid-cols-3 md:grid-cols-2 gap-4  ">
         <ExpertiseCard
           imageUrl="/images/expertise/orientation_tour.jpeg"
           buttonText="Orientation Tour"

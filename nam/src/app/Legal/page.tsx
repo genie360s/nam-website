@@ -42,13 +42,13 @@ export default function Legal() {
       </div>
       {/* the services */}
 
-      <div className="mx-auto mt-[10vh] w-[60vw] grid grid grid-rows-2 grid-flow-col grid-cols-3 gap-4  ">
+      <div className="mx-auto mt-[10vh] w-[60vw] grid sm:grid-flow-row sm:grid-auto-rows lg:grid-rows-2 lg:grid-flow-col lg:grid-cols-3 md:grid-cols-2 gap-4  ">
         <LegalCard
           imageUrl="/images/legal/corporate_commercial.jpeg"
           buttonText="Corporate & Commercial Law"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
-              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
+              <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center ">
                 Corporate & Commercial Law
               </div>
               <div className="top-10">
