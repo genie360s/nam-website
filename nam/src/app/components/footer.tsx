@@ -4,8 +4,8 @@ const currentYear = new Date().getFullYear(); // Get the current year dynamicall
 export function Footer(){
     return (
         <div>
-            <footer className="grid grid-cols-4 w-[80vw] mx-auto gap-4 mt-[10ch] py-[6vh] border-t-2 border-b-2 border-brand-copper ">
-        <div className=" cols-1">
+            <footer className="grid 2xl:grid-cols-4 md:grid-flow-row md:grid-auto-rows md:grid-cols-2 sm:grid-flow-row sm:grid-auto-rows sm:grid-cols-0 w-[80vw] mx-auto gap-4 mt-[10ch] py-[6vh] border-t-2 border-b-2 border-brand-copper ">
+        <div className=" cols-1 mb-4">
         <Image
             src="/images/nam-logo.png"
             alt="Nam & Associates"
@@ -13,28 +13,28 @@ export function Footer(){
             height={200}
           />
         </div>
-        <div className="cols-1">
+        <div className="cols-1 mb-4">
           <div className="grid grid-rows">
-            <div className="row font-medium text-lg text-off-white">Useful Links</div>
+            <div className="row font-bold text-lg text-off-white">Useful Links</div>
             <div className="row text-off-white mt-4"><i className="bi bi-box-arrow-up-right"></i> Case Studies</div>
             <div className="row text-off-white mt-2"><i className="bi bi-box-arrow-up-right"></i> Areas Of Practice</div>
             <div className="row text-off-white mt-2"> <i className="bi bi-box-arrow-up-right"></i> Blogs</div>
           </div>
         </div>
-        <div className="cols-1">
+        <div className="cols-1 mb-4">
           <div className="grid grid-rows">
-            <div className="row font-medium text-lg text-off-white">Contact Us</div>
+            <div className="row font-bold text-lg text-off-white">Contact Us</div>
             <div className="row text-off-white mt-4"><i className="bi bi-envelope"></i> info@namassociates.co.tz</div>
             <div className="row text-off-white mt-2"><i className="bi bi-telephone-inbound"></i> +255(0)753678678</div>
           </div>
         </div>
-        <div className="cols-1">
+        <div className="cols-1 mb-4">
           <div className="grid grid-rows">
-            <div className="row font-medium text-lg text-off-white">Follow Us</div>
-            <div className="grid row grid-cols-3 gap-2 font-medium text-lg text-off-white">
-            <div className="cols-1 text-off-white mt-4"><i className="bi bi-twitter"></i> </div>
-            <div className="cols-1 text-off-white mt-4"><i className="bi bi-instagram"></i> </div>
-            <div className="cols-1 text-off-white mt-4"><i className="bi bi-linkedin"></i> </div>
+            <div className="row font-bold text-lg text-off-white">Follow Us</div>
+            <div className="grid row grid-cols-3 gap-2 sm:gap-x-1 font-medium text-lg text-off-white">
+            <div className="cols-1 text-off-white mt-4"><i className="bi bi-twitter"></i> Twitter </div>
+            <div className="cols-1 text-off-white mt-4"><i className="bi bi-instagram"></i> Instagram </div>
+            <div className="cols-1 text-off-white mt-4"><i className="bi bi-linkedin"></i> Linkedin </div>
             </div>
           </div>
         </div>

@@ -45,7 +45,7 @@ export default function ContactCard() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="cols-1">
+      <div className="md:cols-1 w-full">
         <div className="grid grid-rows">
           <div className="row text-brand-blue font-medium">Full name</div>
           <div className="row text-brand-blue">
@@ -54,7 +54,7 @@ export default function ContactCard() {
               name="fullName"
               value={formData.fullName}
               onChange={handleChange}
-              className="focus:outline-none border border-brand-blue w-[30vw] bg-transparent p-2 rounded-lg mt-4"
+              className="focus:outline-none border border-brand-blue md:w-[30vw] w-full bg-transparent p-2 rounded-lg mt-4"
               required
             />
           </div>
@@ -67,7 +67,7 @@ export default function ContactCard() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="focus:outline-none border border-brand-blue w-[30vw] bg-transparent p-2 rounded-lg mt-4"
+              className="focus:outline-none border border-brand-blue md:w-[30vw] w-full bg-transparent p-2 rounded-lg mt-4"
               required
             />
           </div>
@@ -79,14 +79,14 @@ export default function ContactCard() {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="focus:outline-none border border-brand-blue w-[30vw] h-32 bg-transparent p-2 rounded-lg mt-4"
+              className="focus:outline-none border border-brand-blue md:w-[30vw] w-full h-32 bg-transparent p-2 rounded-lg mt-4"
               required
             ></textarea>
           </div>
         </div>
         <button
           type="submit"
-          className="flex justify-center items-center text-center mt-[4vh] w-[30vw] rounded-full border border-brand-blue text-brand-blue hover:bg-brand-copper hover:text-brand-blue hover:shadow-lg transition-all duration-300"
+          className="flex justify-center items-center text-center mt-[4vh] md:w-[30vw] w-full rounded-full border border-brand-blue text-brand-blue hover:bg-brand-copper hover:text-brand-blue hover:shadow-lg transition-all duration-300"
         >
           <div className="flex-auto py-2 font-bold">I Challenge You</div>
           <div className="flex-auto animate-slidy py-2">

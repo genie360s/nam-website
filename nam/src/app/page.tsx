@@ -7,6 +7,7 @@ import GoogleMapEmbed from "./components/googleMapEmbed";
 import { Footer } from "./components/footer";
 import { Borel } from "next/font/google";
 import ContactCard from "./components/contactCard";
+import WhyCard from "./components/whyCard";
 
 const borel = Borel({
   subsets: ["latin"],
@@ -35,27 +36,28 @@ export default function Home() {
         </div>
       </div>
       <NavBar />
-      <div className="lg:flex justify-content gap-x-4 lg:gap-x-1 mx-auto mt-10 w-[80vw] md:grid md:grid md:grid-cols-1">
-        {/* @todo: responsiveness ,landing page , footer , harmburger menu */}
-        <div className="flex-1  w-96  ">
+      <div className=" mx-auto mt-10 mb-5 w-[80vw]  gaps-4  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-flow-col grid-rows-1">
+        
+        <div className="w-full h-[35vw] hidden lg:block">
           <Image
             src="/images/left-dar-img.png"
             alt="Nam & Associates"
+            className="h-[35vw] "
             width={370}
             height={430}
           />
         </div>
-        <div className="flex-1 flex flex-col  w-96  ">
-          <div className="mt-[10vh] lg:mt-[0.5vh]">
-            <div className="mx-auto bg-brand-copper w-[20vw] h-[1vh] lg:h-[0.7vh]"></div>
-            <div className="mx-auto font-semibold text-3xl lg:text-xl w-[20vw] text-center mt-4 ">
+        <div className=" flex flex-col  w-full   px-3">
+          <div className="2xl:mt-[10vw] xl:mt-[6.5vw] lg:mt-[2.5em] mt-[5.5vw]  mx-auto">
+            <div className="mx-auto bg-brand-copper w-full h-[1vh] lg:h-[0.7vh]"></div>
+            <div className="mx-auto font-semibold md:text-lg text-2xl lg:text-lg  xl:text-xl w-full text-center mt-4 ">
               Relocate easily into the city of Dar es Salaam.
             </div>
-            <div className="mx-auto font-normal text-lg w-[20vw] text-center mt-4 ">
+            <div className="mx-auto font-normal text-base xl:text-lg w-full text-center mt-4 ">
               Discover Dar es Salaam with Confidence: <br /> A 360° relocation
-              experience
+              experience.
             </div>
-            <div className="mx-auto  flex  text-center mt-5 w-[20vw] rounded-full bg-brand-copper  text-brand-blue">
+            <div className="mx-auto  flex  text-center mt-5 w-full rounded-full bg-brand-copper  text-brand-blue">
               <div className="flex-auto py-2 lg:text-base">Consult Us Today </div>
               <div className="flex-auto animate-slidy py-2">
                 <i className="bi bi-arrow-right-circle  text-lg lg:-ml-[1.5vw] "></i>
@@ -63,11 +65,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex-1  w-96 relative">
+        <div className="w-full relative sm:h-[35vw] h-[60vw] mt-[10vw] sm:mt-0 ">
           <Image
             src="/images/right-dar-img.png"
             alt="Nam & Associates"
-            className="absolute right-0"
+            className="absolute  right-0 sm:h-[35vw] h-[60vw] w-full "
             width={370}
             height={430}
           />
@@ -78,9 +80,9 @@ export default function Home() {
         <div className=" border-b-4 font-bold  text-2xl w-[4.5em] py-2">
           Foreword
         </div>
-        <div className="flex w-[80vw] gap-[10vw]">
-          <div className="flex-initial  w-[45vw] mt-10 ">
-            <p className="font-normal text-justify text-lg">
+        <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 md:grid-flow-col w-[80vw] md:gap-[2vw]">
+          <div className="  w-full md:w-[40vw] mt-10 ">
+            <p className="font-normal text-justify text-small sm:text-lg">
               If you&apos;re moving to or within Dar es Salaam and feeling
               hesitant about the transition, look no further than NAM &
               Associates. With over six years in immigration and relocation
@@ -92,7 +94,8 @@ export default function Home() {
               home in Tanzania&apos;s vibrant commercial capital.
             </p>
           </div>
-          <div className="flex-initial grid grid-cols-3">
+          <div className="grid place-items-center mt-10 sm:mt-0">
+            <div className=" grid grid-cols-3">
             <div className=" animate-flip ">
               <Image
                 src="/images/card.png"
@@ -117,6 +120,7 @@ export default function Home() {
                 height={330}
               />
             </div>
+            </div>
           </div>
         </div>
       </div>
@@ -126,91 +130,39 @@ export default function Home() {
           Why ?
         </div>
       </div>
-      <div className="mx-auto grid grid-rows-3 grid-flow-col gap-8 w-[80vw] mt-[10vh]">
-        <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-06.png')] bg-cover rounded-full"></div>
-          <div className="col-span-3 m-2 bg-card-bg rounded-lg">
-            <div className="grid grid-rows-2 px-5 py-3">
-              <div className="row font-semibold text-brand-blue text-lg">
-                Tailored Approach
-              </div>
-              <div className="row text-justify w-[26vw] text-card-grey">
-                Personalized relocation solutions tailored to meet your unique
-                needs and preferences.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-03.png')] bg-cover  rounded-full"></div>
-          <div className="col-span-3 m-2 bg-card-bg rounded-lg">
-            <div className="grid grid-rows-2 px-5 py-3">
-              <div className="row font-semibold text-brand-blue text-lg">
-                Local Expertise
-              </div>
-              <div className="row text-justify w-[26vw] text-card-grey">
-                Deep local expertise in Dar es Salaam, offering insider insights
-                and invaluable support.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-01.png')] bg-cover  rounded-full"></div>
-          <div className="col-span-3 m-2 bg-card-bg rounded-lg">
-            <div className="grid grid-rows-2 px-5 py-3">
-              <div className="row font-semibold text-brand-blue text-lg">
-                Comprehensiveness
-              </div>
-              <div className="row text-justify w-[26vw] text-card-grey">
-                Comprehensive relocation services covering everything from
-                airport transfers to ongoing assistance.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-02.png')] bg-cover rounded-full"></div>
-          <div className="col-span-3 m-2 bg-card-bg rounded-lg">
-            <div className="grid grid-rows-2 px-5 py-3">
-              <div className="row font-semibold text-brand-blue text-lg">
-                Strong Partnerships
-              </div>
-              <div className="row text-justify w-[26vw] text-card-grey">
-                Strong partnerships with key stakeholders in Dar es Salaam to
-                provide additional resources and support networks.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-04.png')] bg-cover rounded-full"></div>
-          <div className="col-span-3 m-2 bg-card-bg rounded-lg">
-            <div className="grid grid-rows-2 px-5 py-3">
-              <div className="row font-semibold text-brand-blue text-lg">
-                Client Centric Approach
-              </div>
-              <div className="row text-justify w-[26vw] text-card-grey">
-                Exceeding your expectations with round-the-clock assistance and
-                personalized recommendations.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-4">
-          <div className="col-span-1 m-2 w-[8vw] h-[8vw] bg-[url('/images/why/nam-05.png')] bg-cover rounded-full"></div>
-          <div className="col-span-3 m-2 bg-card-bg rounded-lg">
-            <div className="grid grid-rows-2 px-5 py-3">
-              <div className="row font-semibold text-brand-blue text-lg">
-                Innovative Solutions
-              </div>
-              <div className="row text-justify w-[26vw] text-card-grey">
-                Streamlining the relocation process and enhance efficiency,
-                ensuring you benefit from the latest tools and resources.
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="mx-auto gap-8 w-[80vw] mt-[10vh]">
+      <div className="grid gap-4 md:grid-rows-3 md:grid-flow-col">
+      <WhyCard
+        imageUrl="/images/why/nam-06.png"
+        title="Tailored Approach"
+        description="Personalized relocation solutions tailored to meet your unique needs and preferences all the time."
+      />
+      <WhyCard
+        imageUrl="/images/why/nam-03.png"
+        title="Local Expertise"
+        description="Deep local expertise in Dar es Salaam, offering insider insights and invaluable support."
+      />
+      <WhyCard
+        imageUrl="/images/why/nam-01.png"
+        title="Comprehensiveness"
+        description="Comprehensive relocation services covering everything from airport transfers to ongoing assistance."
+      />
+      <WhyCard
+        imageUrl="/images/why/nam-02.png"
+        title="Strong Partnerships"
+        description="With key stakeholders in Dar es Salaam to provide additional resources and support networks."
+      />
+      <WhyCard
+        imageUrl="/images/why/nam-04.png"
+        title="Client Centric Approach"
+        description="Exceeding your expectations with round-the-clock assistance and personalized recommendations."
+      />
+      <WhyCard
+        imageUrl="/images/why/nam-05.png"
+        title="Innovative Solutions"
+        description="Streamlining the relocation process and enhance efficiency, ensuring you comfort and satisfaction."
+      />
+    </div>
       </div>
       {/* founding partner */}
       <div className="mx-auto w-[80vw] mt-[10vh]">
@@ -218,15 +170,24 @@ export default function Home() {
           Founding & Managing Partner
         </div>
       </div>
-      <div className="mx-auto grid grid-cols-2 gap-4 w-[80vw] mt-[13vh]">
+      <div className="mx-auto grid md:grid-cols-2 gap-4 w-[80vw] mt-[8vh]">
+      <div className="col-span-1  relative md:hidden ">
+          <Image
+            src="/images/nicole-prof-bio.png"
+            className="rounded-lg  right-0 top-0 bottom-0"
+            alt="Nam & Associates"
+            width={570}
+            height={630}
+          />
+        </div>
         <div className="col-span-1 ">
-          <h3 className="text-5xl text-off-white">
+          <h3 className="sm:text-5xl text-3xl text-off-white">
             {" "}
             <span className={`${borel.className}  bg-brand-blue antialiased`}>
               Nicole Aishi Mbowe
             </span>{" "}
           </h3>
-          <p className="text-justify text-off-white text-lg mt-4">
+          <p className="text-justify text-off-white text-lg mt-4 text-base">
             Nicole&apos;s passion for helping individuals and families settle into
             Dar es Salaam has transformed into the leading destination service
             provider in the country. Her service covers all aspects of
@@ -234,7 +195,7 @@ export default function Home() {
             guided tours, and departure assistance, ensuring clients experience
             comfort and convenience.
           </p>
-          <p className="text-justify text-off-white text-lg mt-5">
+          <p className="text-justify text-off-white text-base mt-5 ">
             Nicole&apos;s impressive career includes roles at NAM & Associates,
             Bowmans, PwC, and more, honing her legal and business expertise.
             With a Postgraduate Diploma in Legal Practice and a First Class
@@ -243,7 +204,7 @@ export default function Home() {
             organizations like the Tanganyika Law Society and the Tanzania Women
             Lawyers Association.
           </p>
-          <p className="text-justify text-off-white text-lg mt-5">
+          <p className="text-justify text-off-white text-base mt-5 ">
             If you’re planning a move to Dar es Salaam, let Nicole&apos;s expertise
             make your transition seamless and stress-free. Contact us today to
             learn how we can assist you in every step of your journey, ensuring
@@ -254,23 +215,27 @@ export default function Home() {
           </p>
           {/* link */}
           <Link href="/#contact">
-          <div className=" flex  text-center mt-[4vh] w-[20vw] rounded-full border border-brand-copper text-brand-copper justify-center items-center cursor-pointer hover:bg-brand-copper hover:text-brand-blue transition-all duration-300">
+          <div className=" flex  text-center mt-[4em] w-[20em] rounded-full border border-brand-copper text-brand-copper justify-center items-center cursor-pointer hover:bg-brand-copper hover:text-brand-blue transition-all duration-300">
             <div className="flex-auto py-2 font-bold">Talk To Nicole </div>
             <div className="flex-auto animate-slidy py-2">
               <i className="bi bi-arrow-right-circle  font-bold text-lg "></i>
             </div>
           </div>
           </Link>
+        
         </div>
-        <div className="col-span-1  relative">
-          <Image
+        <div className="col-span-1 relative hidden md:block">
+        <Image
             src="/images/nicole-prof-bio.png"
-            className="rounded absolute right-0"
+            className="rounded-lg  absolute right-0 top-0    "
             alt="Nam & Associates"
             width={570}
             height={630}
           />
         </div>
+          
+        
+        
       </div>
       {/* cta */}
       <div className="mx-auto w-[80vw] mt-[10vh]">
@@ -278,43 +243,43 @@ export default function Home() {
           Challenge Us To Help You
         </div>
       </div>
-      <div className="w-[80vw] mx-auto mb-[10vh] h-[65vh]">
+      <div className="w-[80vw] mx-auto mb-[10vh] md:h-[65vh] h-[280vw]">
         <div className="mx-auto relative w-[80vw]">
           <div className="absolute inset-0  h-[62vh] mx-auto mt-[6vh] rounded-lg bg-[url('/images/bg.png')]"></div>
-          <div className="absolute inset-0 mx-auto mt-[6vh] rounded-lg bg-white h-[62vh] w-[80vw]  bg-opacity-10 backdrop-blur-md  border-white/20 p-8  shadow-lg"></div>
-          <div className="absolute inset-0 mx-auto mt-[10vh] rounded-lg  h-[62vh] w-[65vw] grid grid-cols-2 gap-4">
+          <div className="absolute inset-0 mx-auto mt-[6vh] rounded-lg bg-white md:h-[62vh] h-[280vw] w-[80vw]  bg-opacity-10 backdrop-blur-md  border-white/20 p-8  shadow-lg"></div>
+          <div className="absolute inset-0 mx-auto mt-[10vh] rounded-lg  md:h-[62vh] h-[280vw] w-[65vw] grid md:grid-cols-2 md:gap-4">
             <ContactCard />
-            <div className="cols-1 bg-card-bg rounded-lg h-[53vh] ">
+            <div className="cols-1 bg-card-bg rounded-lg h-[53vh] grid place-items-center">
               <div className="grid grid-rows ">
-                <div className="row text-brand-blue font-bold text-2xl text-center mt-4" >
+                <div className="row text-brand-blue font-bold md:text-xl text-xl text-center mt-4" >
                   Contact Information
                 </div>
-                <div className="row text-brand-blue font-normal text-lg text-center mt-4">
+                <div className="row text-brand-blue font-normal md:text-base text-center mt-4">
                   Let us help you settle and enjoy <br /> Dar es Salaam with
                   ease.
                 </div>
-                <div className="row text-brand-blue font-medium text-xl text-center mt-[5vh]">
+                <div className="row text-brand-blue font-medium md:text-lg text-lg text-center mt-[5vh]">
                   {" "}
                   <i className="bi bi-envelope"></i> Email Us
                 </div>
-                <div className="row text-brand-blue font-normal text-lg text-center mt-2">
+                <div className="row text-brand-blue font-normal md:text-base text-center mt-2">
                   info@namassociates.co.tz
                 </div>
-                <div className="row text-brand-blue font-medium text-xl text-center mt-5">
+                <div className="row text-brand-blue font-medium md:text-lg text-lg text-center mt-5">
                   {" "}
                   <i className="bi bi-telephone-inbound"></i> Call Us
                 </div>
-                <div className="row text-brand-blue font-normal text-lg text-center mt-2">
-                  info@namassociates.co.tz
+                <div className="row text-brand-blue font-normal md:text-base text-center mt-2">
+                +255 753 678 768
                 </div>
-                <div className="row text-brand-blue font-medium text-xl text-center mt-5">
+                <div className="row text-brand-blue font-medium  text-lg text-center mt-5">
                   {" "}
                   <i className="bi bi-alarm"></i> Working Hours
                 </div>
-                <div className="row text-brand-blue font-normal text-lg text-center mt-2">
+                <div className="row text-brand-blue font-normal md:text-base text-center mt-2">
                   Monday - Friday ( 08:30 am - 05:00 pm ){" "}
                 </div>
-                <div className="row text-brand-blue font-normal text-lg text-center mt-2">
+                <div className="row text-brand-blue font-normal md:text-base text-center mt-2">
                   Saturday ( 08:30 am - 02:00 pm )
                 </div>
               </div>
