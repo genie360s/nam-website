@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import SearchBar from "./components/searchBar";
 import { NavBar } from "./components/navBar";
 import GoogleMapEmbed from "./components/googleMapEmbed";
 import { Footer } from "./components/footer";
 import { Borel } from "next/font/google";
 import ContactCard from "./components/contactCard";
 import WhyCard from "./components/whyCard";
+import SearchBar from "./components/searchBar";
 
 const borel = Borel({
   subsets: ["latin"],
@@ -18,6 +18,7 @@ const borel = Borel({
 export default function Home() {
   return (
     <div>
+      
       <div className="flex justify-between mx-auto mt-20 size-16 w-[80vw]">
         <div className="h-96 flex-none">
           <Image
@@ -28,10 +29,8 @@ export default function Home() {
           />
         </div>
         <div className=" flex-auto order-last">
-          <div className="grid justify-items-end mt-3">
-            <SearchBar
-              searchHandler={(query: string) => console.log(query)}
-            ></SearchBar>
+          <div className="grid justify-items-end mt-3 mb-3">
+          <SearchBar/>;
           </div>
         </div>
       </div>
@@ -55,8 +54,9 @@ export default function Home() {
               Relocate easily into the city of Dar es Salaam.
             </div>
             <div className="mx-auto font-normal text-base xl:text-lg w-full text-center mt-4 ">
-              Discover Dar es Salaam with Confidence: <br /> A 360° relocation
-              experience.
+              <p className="searchable">Discover Dar es Salaam with Confidence: <br /> A 360° relocation
+              experience.</p>
+              
             </div>
             <div className="mx-auto  flex  text-center mt-5 w-full rounded-full bg-brand-copper  text-brand-blue">
               <div className="flex-auto py-2 lg:text-base">Consult Us Today </div>

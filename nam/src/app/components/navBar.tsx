@@ -16,8 +16,7 @@ export function NavBar() {
 
   return (
     <nav className="mx-auto flex justify-between items-center w-[80vw] py-4 relative">
-      {/* Logo */}
-      <div className="text-brand-blue text-2xl font-bold">Logo</div>
+     
 
       {/* Hamburger Icon */}
       <button
