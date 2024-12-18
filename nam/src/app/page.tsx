@@ -38,17 +38,18 @@ export default function Home() {
       <NavBar />
       <div className=" mx-auto mt-10 mb-5 w-[80vw]  gaps-4  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-flow-col grid-rows-1">
         
-        <div className="w-full h-[35vw] hidden lg:block">
+      
+        <div className="w-full relative sm:h-[35vw] h-[60vw] mt-[10vw] sm:mt-0 hidden lg:block">
           <Image
             src="/images/left-dar-img.png"
             alt="Nam & Associates"
-            className="h-[35vw] "
+            className="absolute  right-0 sm:h-[35vw] h-[60vw] w-full "
             width={370}
             height={430}
           />
         </div>
-        <div className=" flex flex-col  w-full   px-3">
-          <div className="2xl:mt-[10vw] xl:mt-[6.5vw] lg:mt-[2.5em] mt-[5.5vw] mb-8  mx-auto">
+        <div className=" flex items-center  w-full   px-3">
+          <div className=" mb-8  mx-auto">
             <div className="mx-auto bg-brand-copper w-full h-[1vh] lg:h-[0.7vh]"></div>
             <div className="mx-auto font-semibold md:text-lg text-2xl lg:text-lg  xl:text-xl w-full text-center mt-4 ">
               Relocate easily into the city of Dar es Salaam.
