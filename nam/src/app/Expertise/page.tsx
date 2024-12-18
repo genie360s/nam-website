@@ -26,7 +26,7 @@ export default function Expertise() {
         </div>
       </div>
       <NavBar />
-      <div className="mx-auto w-[60vw] mt-[10vh]">
+      <div className="mx-auto w-[60vw] mt-[6vh]">
         <div className=" mx-auto border-b-4 font-bold  text-2xl w-[6.5em] py-2">
           Our Expertise
         </div>

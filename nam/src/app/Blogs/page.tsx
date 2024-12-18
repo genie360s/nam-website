@@ -26,7 +26,7 @@ export default function Blogs() {
         </div>
       </div>
       <NavBar />
-      <div className="mx-auto w-[60vw] mt-[10vh]">
+      <div className="mx-auto w-[60vw] mt-[5vh]">
         <div className=" mx-auto border-b-4 font-bold  text-2xl w-[2.6em] py-2">
           Blogs
         </div>

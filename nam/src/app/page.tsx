@@ -48,7 +48,7 @@ export default function Home() {
           />
         </div>
         <div className=" flex flex-col  w-full   px-3">
-          <div className="2xl:mt-[10vw] xl:mt-[6.5vw] lg:mt-[2.5em] mt-[5.5vw]  mx-auto">
+          <div className="2xl:mt-[10vw] xl:mt-[6.5vw] lg:mt-[2.5em] mt-[5.5vw] mb-8  mx-auto">
             <div className="mx-auto bg-brand-copper w-full h-[1vh] lg:h-[0.7vh]"></div>
             <div className="mx-auto font-semibold md:text-lg text-2xl lg:text-lg  xl:text-xl w-full text-center mt-4 ">
               Relocate easily into the city of Dar es Salaam.
