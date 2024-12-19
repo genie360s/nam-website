@@ -251,50 +251,55 @@ export default function Home() {
           Challenge Us To Help You
         </div>
       </div>
-      <div className="w-[80vw] mx-auto mb-[10vh] md:h-[65vh] h-[280vw]">
-        <div className="mx-auto relative w-[80vw]">
-          <div className="absolute inset-0  h-[62vh] mx-auto mt-[6vh] rounded-lg bg-[url('/images/bg.png')]"></div>
-          <div className="absolute inset-0 mx-auto mt-[6vh] rounded-lg bg-white md:h-[62vh] h-[280vw] w-[80vw]  bg-opacity-10 backdrop-blur-md  border-white/20 p-8  shadow-lg"></div>
-          <div className="absolute inset-0 mx-auto mt-[10vh] rounded-lg  md:h-[62vh] h-[280vw] w-[65vw] grid md:grid-cols-2 md:gap-4">
-            <ContactCard />
-            <div className="cols-1 bg-card-bg rounded-lg h-[53vh] grid place-items-center">
-              <div className="grid grid-rows ">
-                <div className="row text-brand-blue font-bold md:text-xl text-xl text-center mt-4" >
-                  Contact Information
-                </div>
-                <div className="row text-brand-blue font-normal md:text-base text-center mt-4">
-                  Let us help you settle and enjoy <br /> Dar es Salaam with
-                  ease.
-                </div>
-                <div className="row text-brand-blue font-medium md:text-lg text-lg text-center mt-[5vh]">
-                  {" "}
-                  <i className="bi bi-envelope"></i> Email Us
-                </div>
-                <div className="row text-brand-blue font-normal md:text-base text-center mt-2">
-                  info@namassociates.co.tz
-                </div>
-                <div className="row text-brand-blue font-medium md:text-lg text-lg text-center mt-5">
-                  {" "}
-                  <i className="bi bi-telephone-inbound"></i> Call Us
-                </div>
-                <div className="row text-brand-blue font-normal md:text-base text-center mt-2">
-                +255 753 678 768
-                </div>
-                <div className="row text-brand-blue font-medium  text-lg text-center mt-5">
-                  {" "}
-                  <i className="bi bi-alarm"></i> Working Hours
-                </div>
-                <div className="row text-brand-blue font-normal md:text-base text-center mt-2">
-                  Monday - Friday ( 08:30 am - 05:00 pm ){" "}
-                </div>
-                <div className="row text-brand-blue font-normal md:text-base text-center mt-2">
-                  Saturday ( 08:30 am - 02:00 pm )
-                </div>
-              </div>
-            </div>
+      <div className="w-[80vw] mx-auto mb-[10vh] mt-10">
+  <div className="relative w-full max-w-[80vw] mx-auto">
+    {/* Background Image */}
+    <div className="absolute inset-0 h-full rounded-lg bg-cover bg-center bg-[url('/images/bg.png')]"></div>
+
+    {/* Semi-transparent Overlay */}
+    <div className="absolute inset-0 rounded-lg bg-white bg-opacity-10 backdrop-blur-md border border-white/20 shadow-lg"></div>
+
+    {/* Main Content */}
+    <div className="relative mx-auto rounded-lg w-full max-w-[65vw] grid md:grid-cols-2 gap-6 p-8 mt-10 mb-10 shadow-lg">
+      {/* Contact Card */}
+      <ContactCard />
+
+      {/* Contact Information */}
+      <div className="bg-card-bg rounded-lg grid place-items-center p-6">
+        <div className="grid gap-6">
+          <div className="text-brand-blue font-bold text-xl text-center">
+            Contact Information
+          </div>
+          <div className="text-brand-blue font-normal text-center">
+            Let us help you settle and enjoy <br /> Dar es Salaam with ease.
+          </div>
+          <div className="text-brand-blue font-medium text-lg text-center">
+            <i className="bi bi-envelope"></i> Email Us
+          </div>
+          <div className="text-brand-blue font-normal text-center">
+            info@namassociates.co.tz
+          </div>
+          <div className="text-brand-blue font-medium text-lg text-center">
+            <i className="bi bi-telephone-inbound"></i> Call Us
+          </div>
+          <div className="text-brand-blue font-normal text-center">
+            +255 753 678 768
+          </div>
+          <div className="text-brand-blue font-medium text-lg text-center">
+            <i className="bi bi-alarm"></i> Working Hours
+          </div>
+          <div className="text-brand-blue font-normal text-center">
+            Monday - Friday (08:30 am - 05:00 pm)
+          </div>
+          <div className="text-brand-blue font-normal text-center">
+            Saturday (08:30 am - 02:00 pm)
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
       {/* locate us */}
       <div className="mx-auto w-[80vw]  ">
         <div className=" mx-auto border-b-4 font-bold  text-2xl w-[5em] py-2">
