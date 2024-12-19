@@ -11,7 +11,7 @@ export function NavBar() {
     { href: "/", label: "Home" },
     { href: "/Expertise", label: "Our Expertise" },
     { href: "/Legal", label: "Legal Practice" },
-    { href: "/Blogs", label: "Blogs" },
+    { href: "/#profile", label: "Our Profile" },
   ];
 
   return (

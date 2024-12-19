@@ -58,18 +58,18 @@ export default function Expertise() {
               </div>
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-justify w-full p-8  text-gray-700 mt-[10vh] mb-8">
-                  <li>Create excitement and manage relocation expectations.</li>
+                  <li>Create excitement and manage relocation expectations</li>
                   <li>
-                    Identify key costs early to save on relocation expenses.
+                    Identify key costs early to save on relocation expenses
                   </li>
                   <li>
                     Enable informed decisions for a smooth transition and family
-                    well-being.
+                    well-being
                   </li>
-                  <li>Provide insights into the local housing market.</li>
+                  <li>Provide insights into the local housing market</li>
                   <li>
                     Facilitate cultural adaptation through early exposure to
-                    local culture.
+                    local culture
                   </li>
                 </ul>
               </div>
@@ -86,18 +86,18 @@ export default function Expertise() {
               </div>
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-justify w-full p-8  mt-[10vh] mb-8 text-gray-700">
-                  <li>Plan and book flights for employees and families.</li>
-                  <li>Share updated travel restrictions information.</li>
+                  <li>Plan and book flights for employees and families</li>
+                  <li>Share updated travel restrictions information</li>
                   <li>
                     Offer a warm welcome upon arrival with meet-and-greet
-                    services.
+                    services
                   </li>
-                  <li>Arrange airport transfers to the destination.</li>
+                  <li>Arrange airport transfers to the destination</li>
                   <li>
-                    Provide guided tours of living areas and local amenities.
+                    Provide guided tours of living areas and local amenities
                   </li>
                   <li>
-                    Assist with rental car bookings and daily living tips.
+                    Assist with rental car bookings and daily living tips
                   </li>
                 </ul>
               </div>
@@ -116,14 +116,14 @@ export default function Expertise() {
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Secure temporary accommodations like serviced apartments or
-                    short-term rentals.
+                    short-term rentals
                   </li>
                   <li>
-                    Arrange leases, furnishings, utilities, and housekeeping.
+                    Arrange leases, furnishings, utilities, and housekeeping
                   </li>
-                  <li>Manage maintenance and security services.</li>
+                  <li>Manage maintenance and security services</li>
                   <li>
-                    Provide additional concierge support for specific tasks.
+                    Provide additional concierge support for specific tasks
                   </li>
                 </ul>
               </div>
@@ -140,16 +140,16 @@ export default function Expertise() {
               </div>
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify  w-full p-8 mt-[10vh] mb-8">
-                  <li>Assess client preferences and budget for housing.</li>
-                  <li>Research and shortlist suitable properties.</li>
+                  <li>Assess client preferences and budget for housing</li>
+                  <li>Research and shortlist suitable properties</li>
                   <li>
                     Offer property tours and assist with rental/purchase
-                    negotiations.
+                    negotiations
                   </li>
                   <li>
-                    Ensure legal compliance and provide local area information.
+                    Ensure legal compliance and provide local area information
                   </li>
-                  <li>Provide post-move support for a smooth transition.</li>
+                  <li>Provide post-move support for a smooth transition</li>
                 </ul>
               </div>
             </div>
@@ -165,13 +165,13 @@ export default function Expertise() {
               </div>
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
-                  <li>Research and recommend suitable schools.</li>
+                  <li>Research and recommend suitable schools</li>
                   <li>
                     Assist with application, enrollment, and admissions
-                    processes.
+                    processes
                   </li>
-                  <li>Guide families with special education needs.</li>
-                  <li>Provide ongoing school support throughout the year.</li>
+                  <li>Guide families with special education needs</li>
+                  <li>Provide ongoing school support throughout the year</li>
                 </ul>
               </div>
             </div>
@@ -188,16 +188,16 @@ export default function Expertise() {
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
-                    Offer insights into healthcare access and insurance needs.
+                    Offer insights into healthcare access and insurance needs
                   </li>
                   <li>
                     Introduce local culture, customs, and Swahili language
-                    basics.
+                    basics
                   </li>
-                  <li>Explain transport options and safety considerations.</li>
+                  <li>Explain transport options and safety considerations</li>
                   <li>
                     Share employment opportunities and assist in hiring domestic
-                    workers.
+                    workers
                   </li>
                 </ul>
               </div>
@@ -215,10 +215,10 @@ export default function Expertise() {
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
-                    Manage work and residence permit applications and renewals.
+                    Manage work and residence permit applications and renewals
                   </li>
                   <li>
-                    Provide guidance on visa and immigration requirements.
+                    Provide guidance on visa and immigration requirements
                   </li>
                 </ul>
               </div>
@@ -236,12 +236,12 @@ export default function Expertise() {
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
-                    Support lease termination and deregistration processes.
+                    Support lease termination and deregistration processes
                   </li>
                   <li>
-                    Arrange utility disconnections and end-of-tenancy cleaning.
+                    Arrange utility disconnections and end-of-tenancy cleaning
                   </li>
-                  <li>Handle security deposit claims and returns.</li>
+                  <li>Handle security deposit claims and returns</li>
                 </ul>
               </div>
             </div>
@@ -259,11 +259,11 @@ export default function Expertise() {
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
-                    Relax on Zanzibar’s beaches and explore its rich heritage.
+                    Relax on Zanzibar’s beaches and explore its rich heritage
                   </li>
                   <li>
                     Experience guided safaris in Serengeti, Ngorongoro, and
-                    Tarangire National Parks.
+                    Tarangire National Parks
                   </li>
                 </ul>
               </div>

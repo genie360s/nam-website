@@ -58,17 +58,19 @@ export default function Home() {
             </div>
             <div className="mx-auto font-normal text-base xl:text-2xl w-full text-center mt-4 ">
               <p className="searchable">Discover Dar es Salaam with Confidence: <br /> A 360° relocation
-              experience.</p>
+              experience</p>
               
             </div>
+            <Link href="/#contact">
             <div className="mx-auto  flex  text-center mt-5 w-full rounded-full bg-brand-copper  text-brand-blue">
               <div className="flex-auto py-2 lg:text-base">
-                <p className="searchable">Consult Us Today</p>
+                <p className="searchable text-lg font-bold">Consult Us Today</p>
                 </div>
               <div className="flex-auto animate-slidy py-2">
                 <i className="bi bi-arrow-right-circle  text-lg lg:-ml-[1.5vw] "></i>
               </div>
             </div>
+            </Link>
           </div>
         </div>
         <div className="w-full relative sm:h-[35vw] h-[60vw] mt-[10vw] sm:mt-0 ">
@@ -133,7 +135,7 @@ export default function Home() {
       {/* why ? */}
       <div className="mx-auto w-[80vw] mt-8">
         <div className=" border-b-4 font-bold  text-2xl w-[3em] py-2 searchable">
-          Why ?
+          Why Us ?
         </div>
       </div>
       <div className="mx-auto gap-8 w-[80vw] mt-[10vh]">
@@ -172,7 +174,7 @@ export default function Home() {
       </div>
       {/* founding partner */}
       <div className="mx-auto w-[80vw] mt-[10vh]">
-        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[14em] py-2">
+        <div className=" mx-auto border-b-4 font-bold  text-2xl w-[14em] py-2" id="profile" >
           Founding & Managing Partner
         </div>
       </div>

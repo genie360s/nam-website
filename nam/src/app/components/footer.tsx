@@ -16,24 +16,21 @@ export function Footer(){
         <div className="cols-1 mb-4">
           <div className="grid grid-rows">
             <div className="row font-bold text-lg text-off-white">Useful Links</div>
-            <div className="row text-off-white mt-4"><i className="bi bi-box-arrow-up-right"></i> Case Studies</div>
             <div className="row text-off-white mt-2"><i className="bi bi-box-arrow-up-right"></i> Areas Of Practice</div>
-            <div className="row text-off-white mt-2"> <i className="bi bi-box-arrow-up-right"></i> Blogs</div>
+            <div className="row text-off-white mt-2"> <i className="bi bi-box-arrow-up-right"></i>Profile</div>
           </div>
         </div>
         <div className="cols-1 mb-4">
           <div className="grid grid-rows">
             <div className="row font-bold text-lg text-off-white">Contact Us</div>
             <div className="row text-off-white mt-4"><i className="bi bi-envelope"></i> info@namassociates.co.tz</div>
-            <div className="row text-off-white mt-2"><i className="bi bi-telephone-inbound"></i> +255(0)753678678</div>
+            <div className="row text-off-white mt-2"><i className="bi bi-telephone-inbound"></i> 255 753 678 768</div>
           </div>
         </div>
         <div className="cols-1 mb-4">
           <div className="grid grid-rows">
             <div className="row font-bold text-lg text-off-white">Follow Us</div>
             <div className="grid row grid-cols-3 gap-2 sm:gap-x-1 font-medium text-lg text-off-white">
-            <div className="cols-1 text-off-white mt-4"><i className="bi bi-twitter"></i> Twitter </div>
-            <div className="cols-1 text-off-white mt-4"><i className="bi bi-instagram"></i> Instagram </div>
             <div className="cols-1 text-off-white mt-4"><i className="bi bi-linkedin"></i> Linkedin </div>
             </div>
           </div>

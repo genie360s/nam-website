@@ -56,29 +56,29 @@ export default function Legal() {
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Process tailored Business Licenses with the local
-                    Municipality.
+                    Municipality
                   </li>
                   <li>
                     Obtain Tax Identification Numbers (TIN) from the Tax
-                    Authority.
+                    Authority
                   </li>
                   <li>
                     Facilitate opening bank accounts with local or international
-                    banks.
+                    banks
                   </li>
-                  <li>Acquire additional licenses or approvals as required.</li>
-                  <li>Draft Shareholder Agreements (SHAs).</li>
+                  <li>Acquire additional licenses or approvals as required</li>
+                  <li>Draft Shareholder Agreements (SHAs)</li>
                   <li>
-                    Develop office policies, procedures, and codes of conduct.
+                    Develop office policies, procedures, and codes of conduct
                   </li>
                   <li>
                     Handle immigration and relocation matters, including passes,
-                    work, and resident permits for foreign individuals.
+                    work, and resident permits for foreign individuals
                   </li>
                   <li>
                     Provide company secretarial services, including advice on
                     corporate governance, employment, intellectual property,
-                    contract reviews, taxation, and insolvency/bankruptcy.
+                    contract reviews, taxation, and insolvency/bankruptcy
                   </li>
                 </ul>
               </div>
@@ -95,20 +95,20 @@ export default function Legal() {
               </div>
               <div className="top-10">
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
-                  <li>Draft and screen employment contracts.</li>
-                  <li>Acquire work permits for foreign employees.</li>
+                  <li>Draft and screen employment contracts</li>
+                  <li>Acquire work permits for foreign employees</li>
                   <li>
                     Register employees and employers with the National Social
-                    Security Fund (NSSF).
+                    Security Fund (NSSF)
                   </li>
                   <li>
                     Register employers with the Workers’ Compensation Fund
-                    (WCF).
+                    (WCF)
                   </li>
                   <li>
-                    Provide dispute resolution methods for unfair dismissal.
+                    Provide dispute resolution methods for unfair dismissal
                   </li>
-                  <li>Advise on compliance with statutory requirements.</li>
+                  <li>Advise on compliance with statutory requirements</li>
                 </ul>
               </div>
             </div>
@@ -126,14 +126,14 @@ export default function Legal() {
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Purchase, sale, lease, and registration of lands, complexes,
-                    offices, and residences.
+                    offices, and residences
                   </li>
                   <li>
-                    Recover property fraudulently acquired by a third party.
+                    Recover property fraudulently acquired by a third party
                   </li>
-                  <li>Draft purchase and sale agreements.</li>
-                  <li>Transfer ownership of property.</li>
-                  <li>Register and cancel mortgage deeds or bonds.</li>
+                  <li>Draft purchase and sale agreements</li>
+                  <li>Transfer ownership of property</li>
+                  <li>Register and cancel mortgage deeds or bonds</li>
                 </ul>
               </div>
             </div>
@@ -152,14 +152,14 @@ export default function Legal() {
                   <li>
                     Register trademark rights with the Business Registration and
                     Licensing Authority (BRELA), including renewal and
-                    cancellation.
+                    cancellation
                   </li>
                   <li>
                     Register and maintain entertainment and media-related
                     copyrights with the Copyright Office of Tanzania (COSOTA),
-                    including infringement proceedings.
+                    including infringement proceedings
                   </li>
-                  <li>Register patents with BRELA.</li>
+                  <li>Register patents with BRELA</li>
                 </ul>
               </div>
             </div>
@@ -177,21 +177,21 @@ export default function Legal() {
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Provide domestic and international/cross-border tax
-                    advisory, planning, and strategy.
+                    advisory, planning, and strategy
                   </li>
                   <li>
                     Handle negotiations, discussions, and representation before
                     tax authorities, including the national Revenue Authority
-                    (TRA), tax, and appeal Boards and Tribunals.
+                    (TRA), tax, and appeal Boards and Tribunals
                   </li>
-                  <li>Apply for a Tax Identification Number (TIN).</li>
-                  <li>Process amendments to a TIN certificate.</li>
-                  <li>Prepare and handle tax assessment disputes.</li>
-                  <li>Prepare consolidated annual tax reports.</li>
-                  <li>Conduct tax audits and draft associated reports.</li>
+                  <li>Apply for a Tax Identification Number (TIN)</li>
+                  <li>Process amendments to a TIN certificate</li>
+                  <li>Prepare and handle tax assessment disputes</li>
+                  <li>Prepare consolidated annual tax reports</li>
+                  <li>Conduct tax audits and draft associated reports</li>
                   <li>
                     Consult on tax matters, including tax structure, taxes,
-                    duties, levies, returns, and associated penalties.
+                    duties, levies, returns, and associated penalties
                   </li>
                 </ul>
               </div>
