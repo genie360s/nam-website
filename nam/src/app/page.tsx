@@ -28,11 +28,14 @@ export default function Home() {
             height={200}
           />
         </div>
-        <div className=" flex-auto order-last">
+        <div className=" flex-auto order-last hidden md:block">
           <div className="grid justify-items-end mt-3 mb-3">
           <SearchBar/>
           </div>
         </div>
+      </div>
+      <div className="w-[80vw] md:hidden grid justify-items-end mx-auto mr-2 ">
+      <SearchBar/>
       </div>
       <NavBar />
       <div className=" mx-auto mt-10 mb-5 w-[80vw]  gaps-4  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-flow-col grid-rows-1">
