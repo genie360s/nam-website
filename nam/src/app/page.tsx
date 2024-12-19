@@ -179,14 +179,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mx-auto grid md:grid-cols-2 gap-4 w-[80vw] mt-[8vh]">
-      <div className="col-span-1  relative md:hidden ">
-          <Image
-            src="/images/nicole-prof-bio.png"
-            className="rounded-lg  right-0 top-0 bottom-0"
-            alt="Nam & Associates"
-            width={570}
-            height={630}
-          />
+      <div className="col-span-1  relative md:hidden bg-[url('/images/nicole.jpeg')] rounded-lg ml-10 ">
         </div>
         <div className="col-span-1 ">
           <h3 className="sm:text-5xl text-3xl text-off-white">
@@ -232,14 +225,7 @@ export default function Home() {
           </Link>
         
         </div>
-        <div className="col-span-1 relative hidden md:block">
-        <Image
-            src="/images/nicole-prof-bio.png"
-            className="rounded-lg  absolute right-0 top-0    "
-            alt="Nam & Associates"
-            width={570}
-            height={630}
-          />
+        <div className="col-span-1 relative hidden md:block bg-[url('/images/nicole.jpeg')] rounded-lg ml-10">
         </div>
           
         
