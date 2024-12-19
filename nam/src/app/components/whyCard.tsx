@@ -22,11 +22,16 @@ interface WhyCardProps {
           <div className="grid grid-rows-2 px-5 py-3">
             {/* Title */}
             <div className="row font-semibold text-brand-blue  px-5   ">
+              <p className="searchable">
               {title}
+              </p>
             </div>
             {/* Description */}
-            <div className="row text-justify w-full  text-card-grey px-5 -mt-[1vh] sm:mt-0 text-sm ">
+            <div className="row text-justify w-full  text-card-grey px-5 -mt-[1vh] sm:mt-0 text-base ">
+              <p className="searchable">
               {description}
+              </p>
+              
             </div>
           </div>
         </div>

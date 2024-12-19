@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 
 interface SearchBarProps {
-  placeholder?: string; // Customizable placeholder text
+  placeholder?: string;
+  searchHandler?: (query: string) => void; // Optional external hook
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({
   placeholder = "🔎 Search this page...",
+  searchHandler, // Add the optional searchHandler prop
 }) => {
   const [query, setQuery] = useState<string>("");
   const [noResults, setNoResults] = useState<boolean>(false);
@@ -14,7 +16,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
   const resetHighlights = () => {
     const allTextElements = document.querySelectorAll(".searchable");
     allTextElements.forEach((element) => {
-      const content = element.textContent || "";
+      const content = element.textContent ?? "";
       element.innerHTML = content; // Reset to original text
     });
   };
@@ -33,7 +35,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
     let found = false;
 
     allTextElements.forEach((element) => {
-      const content = element.textContent || "";
+      const content = element.textContent ?? "";
       const lowerCaseContent = content.toLowerCase();
       const lowerCaseQuery = searchQuery.toLowerCase();
 
@@ -50,6 +52,11 @@ const SearchBar: React.FC<SearchBarProps> = ({
     });
 
     setNoResults(!found);
+
+    // Trigger external search handler if provided
+    if (searchHandler) {
+      searchHandler(searchQuery);
+    }
   };
 
   // Handle input changes

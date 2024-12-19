@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className=" flex-auto order-last">
           <div className="grid justify-items-end mt-3 mb-3">
-          <SearchBar/>;
+          <SearchBar/>
           </div>
         </div>
       </div>
@@ -59,7 +59,9 @@ export default function Home() {
               
             </div>
             <div className="mx-auto  flex  text-center mt-5 w-full rounded-full bg-brand-copper  text-brand-blue">
-              <div className="flex-auto py-2 lg:text-base">Consult Us Today </div>
+              <div className="flex-auto py-2 lg:text-base">
+                <p className="searchable">Consult Us Today</p>
+                </div>
               <div className="flex-auto animate-slidy py-2">
                 <i className="bi bi-arrow-right-circle  text-lg lg:-ml-[1.5vw] "></i>
               </div>
@@ -83,7 +85,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 md:grid-flow-col w-[80vw] md:gap-[2vw]">
           <div className="  w-full md:w-[40vw] mt-10 ">
-            <p className="font-normal text-justify text-small sm:text-lg">
+            <p className="font-normal text-justify text-small sm:text-lg searchable">
               If you&apos;re moving to or within Dar es Salaam and feeling
               hesitant about the transition, look no further than NAM &
               Associates. With over six years in immigration and relocation
@@ -127,7 +129,7 @@ export default function Home() {
       </div>
       {/* why ? */}
       <div className="mx-auto w-[80vw] mt-8">
-        <div className=" border-b-4 font-bold  text-2xl w-[3em] py-2">
+        <div className=" border-b-4 font-bold  text-2xl w-[3em] py-2 searchable">
           Why ?
         </div>
       </div>
@@ -188,7 +190,7 @@ export default function Home() {
               Nicole Aishi Mbowe
             </span>{" "}
           </h3>
-          <p className="text-justify text-off-white text-lg mt-4 text-base">
+          <p className="text-justify text-off-white text-base mt-4 lg:text-lg searchable">
             Nicole&apos;s passion for helping individuals and families settle into
             Dar es Salaam has transformed into the leading destination service
             provider in the country. Her service covers all aspects of
@@ -196,7 +198,7 @@ export default function Home() {
             guided tours, and departure assistance, ensuring clients experience
             comfort and convenience.
           </p>
-          <p className="text-justify text-off-white text-base mt-5 ">
+          <p className="text-justify text-off-white text-base mt-5 lg:text-lg searchable ">
             Nicole&apos;s impressive career includes roles at NAM & Associates,
             Bowmans, PwC, and more, honing her legal and business expertise.
             With a Postgraduate Diploma in Legal Practice and a First Class
@@ -205,7 +207,7 @@ export default function Home() {
             organizations like the Tanganyika Law Society and the Tanzania Women
             Lawyers Association.
           </p>
-          <p className="text-justify text-off-white text-base mt-5 ">
+          <p className="text-justify text-off-white text-base mt-5 lg:text-lg searchable ">
             If you’re planning a move to Dar es Salaam, let Nicole&apos;s expertise
             make your transition seamless and stress-free. Contact us today to
             learn how we can assist you in every step of your journey, ensuring
