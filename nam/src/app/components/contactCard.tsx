@@ -1,6 +1,7 @@
 //components/contactCard.tsx
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function ContactCard() {
   interface FormData {
@@ -15,12 +16,16 @@ export default function ContactCard() {
     message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ): void => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
+  const handleSubmit = async (
+    e: React.FormEvent<HTMLFormElement>
+  ): Promise<void> => {
     e.preventDefault();
 
     try {
@@ -89,8 +94,14 @@ export default function ContactCard() {
           className="flex justify-center items-center text-center mt-[4vh] md:w-[30vw] w-full rounded-full border border-brand-blue text-brand-blue hover:bg-brand-copper hover:text-brand-blue hover:shadow-lg transition-all duration-300"
         >
           <div className="flex-auto py-2 font-bold">I Challenge You</div>
-          <div className="flex-auto animate-slidy py-2">
-            <i className="bi bi-arrow-right-circle text-lg"></i>
+          <div className="flex-auto animate-slidy  grid place-items-center">
+            <Image
+              src="./svg/arrow-brand-blue.svg"
+              alt=""
+              className=" "
+              width={60}
+              height={20}
+            />
           </div>
         </button>
       </div>
