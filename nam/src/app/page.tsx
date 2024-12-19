@@ -187,7 +187,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mx-auto grid  md:grid-cols-2 gap-4 w-[80vw] mt-10">
-        <div className="md:col-span-1 mx-auto  relative block  md:hidden bg-[url('/images/nicole.jpeg')] bg-cover rounded-lg  h-96 w-full mb-5"></div>
+        <div className="md:col-span-1 mx-auto  relative block  md:hidden bg-[url('/images/nicole.jpeg')] bg-cover bg-center rounded-lg  h-96 w-full mb-5"></div>
         <div className="md:col-span-1 ">
           <h3 className="sm:text-5xl text-3xl text-off-white">
             {" "}
@@ -245,7 +245,7 @@ export default function Home() {
             </div>
           </Link>
         </div>
-        <div className="col-span-1 relative hidden md:block bg-[url('/images/nicole.jpeg')] rounded-lg ml-10"></div>
+        <div className="col-span-1 relative hidden md:block bg-[url('/images/nicole.jpeg')] bg-cover bg-center rounded-lg ml-10"></div>
       </div>
       {/* cta */}
       <div className="mx-auto w-[80vw] mt-[10vh]">
