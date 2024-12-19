@@ -20,7 +20,7 @@ export function NavBar() {
 
       {/* Hamburger Icon */}
       <button
-        className="block lg:hidden cursor-pointer z-50"
+        className="block lg:hidden cursor-pointer z-50 mt-2 absolute right-0"
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Toggle menu"
       >

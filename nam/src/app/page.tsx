@@ -33,8 +33,8 @@ export default function Home() {
           <SearchBar/>
           </div>
         </div>
-      </div>
-      <div className="w-[80vw] md:hidden grid justify-items-end mx-auto mr-2 ">
+      </div>  
+      <div className="w-[80vw] md:hidden grid justify-items-end mx-auto  ">
       <SearchBar/>
       </div>
       <NavBar />

@@ -17,13 +17,14 @@ export default function Legal() {
             height={200}
           />
         </div>
-        <div className=" flex-auto order-last">
-          <div className="grid justify-items-end mt-3">
-            <SearchBar
-              searchHandler={(query: string) => console.log(query)}
-            ></SearchBar>
+        <div className=" flex-auto order-last hidden md:block">
+          <div className="grid justify-items-end mt-3 mb-3">
+          <SearchBar/>
           </div>
         </div>
+      </div>
+      <div className="w-[80vw] md:hidden grid justify-items-end mx-auto ">
+      <SearchBar/>
       </div>
       <NavBar />
       <div className="mx-auto w-[60vw] mt-[5vh]">
@@ -31,7 +32,7 @@ export default function Legal() {
           Legal Practice
         </div>
         <div className="mt-8">
-          <p className="text-lg text-justify">
+          <p className="text-lg text-justify searchable">
             Our legal practice team offers a wide range of legal and
             administrative services, including the drafting and translation of
             both legal and non-legal documents, as well as their registration
@@ -42,17 +43,17 @@ export default function Legal() {
       </div>
       {/* the services */}
 
-      <div className="mx-auto mt-[10vh] w-[60vw] grid sm:grid-flow-row sm:grid-auto-rows lg:grid-rows-2 lg:grid-flow-col lg:grid-cols-3 md:grid-cols-2 gap-4  ">
+      <div className="mx-auto mt-[5vh] w-[60vw] grid sm:grid-flow-row sm:grid-auto-rows lg:grid-rows-2 lg:grid-flow-col lg:grid-cols-3 md:grid-cols-2 gap-4  ">
         <LegalCard
           imageUrl="/images/legal/corporate_commercial.jpeg"
-          buttonText="Corporate & Commercial Law"
+          buttonText="Corporate & Commercial"
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
               <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center ">
                 Corporate & Commercial Law
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Process tailored Business Licenses with the local
                     Municipality.
@@ -93,7 +94,7 @@ export default function Legal() {
                 Labour & Employment
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>Draft and screen employment contracts.</li>
                   <li>Acquire work permits for foreign employees.</li>
                   <li>
@@ -122,7 +123,7 @@ export default function Legal() {
                 Property ,Conveyancing & Real Estate
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Purchase, sale, lease, and registration of lands, complexes,
                     offices, and residences.
@@ -147,7 +148,7 @@ export default function Legal() {
                 Intellectual Property
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Register trademark rights with the Business Registration and
                     Licensing Authority (BRELA), including renewal and
@@ -173,7 +174,7 @@ export default function Legal() {
                 Taxation
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Provide domestic and international/cross-border tax
                     advisory, planning, and strategy.

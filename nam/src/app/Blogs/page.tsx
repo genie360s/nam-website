@@ -17,13 +17,14 @@ export default function Blogs() {
             height={200}
           />
         </div>
-        <div className=" flex-auto order-last">
-          <div className="grid justify-items-end mt-3">
-            <SearchBar
-              searchHandler={(query: string) => console.log(query)}
-            ></SearchBar>
+        <div className=" flex-auto order-last hidden md:block">
+          <div className="grid justify-items-end mt-3 mb-3">
+          <SearchBar/>
           </div>
         </div>
+      </div>
+      <div className="w-[80vw] md:hidden grid justify-items-end mx-auto ">
+      <SearchBar/>
       </div>
       <NavBar />
       <div className="mx-auto w-[60vw] mt-[5vh]">
@@ -31,7 +32,7 @@ export default function Blogs() {
           Blogs
         </div>
         <div className="mt-8">
-          <p className="text-lg text-justify">
+          <p className="text-lg text-justify searchable">
             Our blog serves as a trusted resource for navigating the
             complexities of legal and administrative matters. Whether you&apos;re
             seeking clarity on legal procedures or looking for tips to
@@ -44,7 +45,7 @@ export default function Blogs() {
       </div>
       {/* the services */}
       
-      <div className="mx-auto mt-[10vh] w-[60vw] grid sm:grid-flow-row sm:grid-auto-rows  lg:grid-rows-1    lg:grid-cols-3 md:grid-cols-2  gap-4  "> 
+      <div className="mx-auto mt-[5vh] w-[60vw] grid sm:grid-flow-row sm:grid-auto-rows  lg:grid-rows-1    lg:grid-cols-3 md:grid-cols-2  gap-4  "> 
         <BlogCard />
         <BlogCard />
         <BlogCard />

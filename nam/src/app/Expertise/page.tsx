@@ -17,21 +17,22 @@ export default function Expertise() {
             height={200}
           />
         </div>
-        <div className=" flex-auto order-last">
-          <div className="grid justify-items-end mt-3">
-            <SearchBar
-              searchHandler={(query: string) => console.log(query)}
-            ></SearchBar>
+        <div className=" flex-auto order-last hidden md:block">
+          <div className="grid justify-items-end mt-3 mb-3">
+          <SearchBar/>
           </div>
         </div>
       </div>
+      <div className="w-[80vw] md:hidden grid justify-items-end mx-auto ">
+      <SearchBar/>
+      </div>
       <NavBar />
-      <div className="mx-auto w-[60vw] mt-[6vh]">
+      <div className="mx-auto w-[60vw] mt-[3vh]">
         <div className=" mx-auto border-b-4 font-bold  text-2xl w-[6.5em] py-2">
-          Our Expertise
+          <p className="searchable">Our Expertise</p>
         </div>
         <div className="mt-8">
-          <p className="text-lg text-justify">
+          <p className="text-lg text-justify searchable">
             Our expertise is based on comprehensive relocation services designed
             to ensure a smooth and seamless transition for individuals and
             families moving to a new location. We provide a range of tailored
@@ -56,7 +57,7 @@ export default function Expertise() {
                 Orientation Tour
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-justify w-[20vw] text-gray-700 mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-justify w-full p-8  text-gray-700 mt-[10vh] mb-8">
                   <li>Create excitement and manage relocation expectations.</li>
                   <li>
                     Identify key costs early to save on relocation expenses.
@@ -84,7 +85,7 @@ export default function Expertise() {
                 Concierge Services
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-justify w-[20vw] mt-[10vh] mb-8 text-gray-700">
+                <ul className="list-disc list-inside space-y-1 text-justify w-full p-8  mt-[10vh] mb-8 text-gray-700">
                   <li>Plan and book flights for employees and families.</li>
                   <li>Share updated travel restrictions information.</li>
                   <li>
@@ -112,7 +113,7 @@ export default function Expertise() {
                 Temporary Housing
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Secure temporary accommodations like serviced apartments or
                     short-term rentals.
@@ -135,10 +136,10 @@ export default function Expertise() {
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
               <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
-                Home Search
+                <p className="searchable">Home Search</p>
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify  w-full p-8 mt-[10vh] mb-8">
                   <li>Assess client preferences and budget for housing.</li>
                   <li>Research and shortlist suitable properties.</li>
                   <li>
@@ -160,10 +161,10 @@ export default function Expertise() {
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
               <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
-                Education
+                <p className="searchable">Education</p>
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>Research and recommend suitable schools.</li>
                   <li>
                     Assist with application, enrollment, and admissions
@@ -182,10 +183,10 @@ export default function Expertise() {
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
               <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
-                Settling In
+                <p className="searchable">Settling In</p>
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Offer insights into healthcare access and insurance needs.
                   </li>
@@ -209,10 +210,10 @@ export default function Expertise() {
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
               <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
-                Maintenance & Upkeep
+                <p className="searchable">Maintenance & Upkeep</p>
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Manage work and residence permit applications and renewals.
                   </li>
@@ -230,10 +231,10 @@ export default function Expertise() {
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
               <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
-                Departure Services
+                <p className="searchable">Departure Services</p>
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Support lease termination and deregistration processes.
                   </li>
@@ -252,10 +253,11 @@ export default function Expertise() {
           modalContent={
             <div className="text-center text-brand-blue flex items-center justify-center ">
               <div className="font-bold text-center text-xl mb-4 absolute top-[5vh] flex items-center justify-center">
-                Tourism
+                <p className="searchable">Tourism</p>
+                
               </div>
               <div className="top-10">
-                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-[20vw] mt-[10vh] mb-8">
+                <ul className="list-disc list-inside space-y-1 text-gray-700 text-justify w-full p-8  mt-[10vh] mb-8">
                   <li>
                     Relax on Zanzibar’s beaches and explore its rich heritage.
                   </li>

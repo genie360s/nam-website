@@ -27,7 +27,7 @@ export default function LegalCard({ imageUrl, buttonText, modalContent }: LegalC
           onClick={toggleModal} // Open modal on button click
           className="absolute bottom-4 rounded-full bg-brand-copper text-brand-blue h-9 flex items-center justify-center cursor-pointer font-semibold"
         >
-          <span className="px-6 py-3 sm:text-base">{buttonText}</span>
+          <span className="px-5 py-3 sm:text-sm searchable">{buttonText}</span>
         </button>
       </div>
 
