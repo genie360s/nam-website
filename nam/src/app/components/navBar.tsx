@@ -15,7 +15,7 @@ export function NavBar() {
   ];
 
   return (
-    <nav className="mx-auto flex justify-between items-center w-[80vw] py-4 relative">
+    <nav className="mx-auto flex justify-between items-center w-[80vw] py-4 relative z-10">
      
 
       {/* Hamburger Icon */}

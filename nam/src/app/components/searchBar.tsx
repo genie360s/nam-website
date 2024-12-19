@@ -6,7 +6,7 @@ interface SearchBarProps {
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({
-  placeholder = "🔎 Search",
+  placeholder = " Search",
   searchHandler, // Add the optional searchHandler prop
 }) => {
   const [query, setQuery] = useState<string>("");
@@ -66,22 +66,26 @@ const SearchBar: React.FC<SearchBarProps> = ({
   };
 
   return (
-    <div className="flex flex-col justify-center items-center my-4">
+    <div>
+    <div className="flex flex-col justify-center items-center my-4 relative z-50">
+      <i className="bi bi-search absolute left-2 text-brand-copper"></i>
       {/* Search Bar */}
       <input
         type="text"
         placeholder={placeholder}
         value={query}
         onChange={handleInputChange}
-        className="rounded-full focus:outline-none border border-brand-copper w-48 bg-transparent px-5 py-1"
+        className="rounded-full focus:outline-none border border-brand-copper w-[15em] bg-transparent px-7 py-1"
       />
-
+    </div>
+    <div className="z-50 w-[15em]">
       {/* No Results Message */}
-      {noResults && (
-        <div className="mt-4 bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded-lg">
+    {noResults && (
+        <div className="mt-4 bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded-lg z-50 text-sm">
           No content found matching your query.
         </div>
       )}
+    </div>
     </div>
   );
 };
