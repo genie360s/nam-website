@@ -186,9 +186,9 @@ export default function Home() {
           Founding & Managing Partner
         </div>
       </div>
-      <div className="mx-auto grid md:grid-cols-2 gap-4 w-[80vw] mt-[8vh]">
-        <div className="col-span-1  relative md:hidden bg-[url('/images/nicole.jpeg')] rounded-lg ml-10 "></div>
-        <div className="col-span-1 ">
+      <div className="mx-auto grid  md:grid-cols-2 gap-4 w-[80vw] mt-10">
+        <div className="md:col-span-1 mx-auto  relative block  md:hidden bg-[url('/images/nicole.jpeg')] bg-cover rounded-lg  h-96 w-full mb-5"></div>
+        <div className="md:col-span-1 ">
           <h3 className="sm:text-5xl text-3xl text-off-white">
             {" "}
             <span className={`${borel.className}  bg-brand-blue antialiased`}>
@@ -223,27 +223,26 @@ export default function Home() {
           </p>
           {/* link */}
           <Link href="/#contact">
-          <div className="flex justify-center text-center mt-[4em] w-[20em] rounded-full border border-brand-copper text-brand-copper justify-center items-center cursor-pointer hover:bg-brand-copper hover:text-brand-blue transition-all duration-300 group">
-  {/* Text Section */}
-  <div className="flex-auto py-2 font-bold">Talk To Nicole</div>
+            <div className="flex justify-center text-center mt-[2em] w-[20em] rounded-full border border-brand-copper text-brand-copper justify-center items-center cursor-pointer hover:bg-brand-copper hover:text-brand-blue transition-all duration-300 group">
+              {/* Text Section */}
+              <div className="flex-auto py-2 font-bold">Talk To Nicole</div>
 
-  {/* SVG Section */}
-  <div className="flex-auto animate-slidy grid place-items-center">
-    <svg
-      width="60"
-      height="20"
-      viewBox="0 0 60 20"
-      className="stroke-current transition-colors duration-300"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M47.7317 0.646973C47.7317 1.63631 48.8326 3.11364 49.9471 4.35364C51.3799 5.95364 53.0921 7.34964 55.0551 8.41497C56.527 9.21364 58.3112 9.98031 59.7471 9.98031M59.7471 9.98031C58.3112 9.98031 56.5255 10.747 55.0551 11.5456C53.0921 12.6123 51.3799 14.0083 49.9471 15.6056C48.8326 16.847 47.7317 18.327 47.7317 19.3136M59.7471 9.98031L0.0459183 9.98031"
-        strokeWidth="2"
-      />
-    </svg>
-  </div>
-</div>
-
+              {/* SVG Section */}
+              <div className="flex-auto animate-slidy grid place-items-center">
+                <svg
+                  width="60"
+                  height="20"
+                  viewBox="0 0 60 20"
+                  className="stroke-current transition-colors duration-300"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M47.7317 0.646973C47.7317 1.63631 48.8326 3.11364 49.9471 4.35364C51.3799 5.95364 53.0921 7.34964 55.0551 8.41497C56.527 9.21364 58.3112 9.98031 59.7471 9.98031M59.7471 9.98031C58.3112 9.98031 56.5255 10.747 55.0551 11.5456C53.0921 12.6123 51.3799 14.0083 49.9471 15.6056C48.8326 16.847 47.7317 18.327 47.7317 19.3136M59.7471 9.98031L0.0459183 9.98031"
+                    strokeWidth="2"
+                  />
+                </svg>
+              </div>
+            </div>
           </Link>
         </div>
         <div className="col-span-1 relative hidden md:block bg-[url('/images/nicole.jpeg')] rounded-lg ml-10"></div>
@@ -266,7 +265,7 @@ export default function Home() {
           <div className="absolute inset-0 rounded-lg bg-white bg-opacity-10 backdrop-blur-md border border-white/20 shadow-lg"></div>
 
           {/* Main Content */}
-          <div className="relative mx-auto rounded-lg w-full max-w-[65vw] grid md:grid-cols-2 gap-6 p-8 mt-10 mb-10 shadow-lg">
+          <div className="relative mx-auto rounded-lg w-full w-full grid md:grid-cols-2 gap-6 p-8 mt-10 mb-10 shadow-lg">
             {/* Contact Card */}
             <ContactCard />
 
