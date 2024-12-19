@@ -73,7 +73,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
         placeholder={placeholder}
         value={query}
         onChange={handleInputChange}
-        className="rounded-full focus:outline-none border border-brand-copper w-96 bg-transparent px-5 py-2"
+        className="rounded-full focus:outline-none border border-brand-copper w-48 bg-transparent px-5 py-1"
       />
 
       {/* No Results Message */}
