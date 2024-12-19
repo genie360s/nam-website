@@ -6,7 +6,7 @@ interface SearchBarProps {
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({
-  placeholder = "🔎 Search this page...",
+  placeholder = "🔎 Search",
   searchHandler, // Add the optional searchHandler prop
 }) => {
   const [query, setQuery] = useState<string>("");

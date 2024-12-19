@@ -53,10 +53,10 @@ export default function Home() {
         <div className=" flex items-center  w-full   px-3">
           <div className=" mb-8  mx-auto">
             <div className="mx-auto bg-brand-copper w-full h-[1vh] lg:h-[0.7vh]"></div>
-            <div className="mx-auto font-semibold md:text-lg text-2xl lg:text-lg  xl:text-xl w-full text-center mt-4 ">
-              Relocate easily into the city of Dar es Salaam.
+            <div className="mx-auto font-semibold md:text-lg text-xl lg:text-lg  xl:text-4xl w-full text-center mt-4 ">
+              Relocate easily into the city of Dar es Salaam
             </div>
-            <div className="mx-auto font-normal text-base xl:text-lg w-full text-center mt-4 ">
+            <div className="mx-auto font-normal text-base xl:text-2xl w-full text-center mt-4 ">
               <p className="searchable">Discover Dar es Salaam with Confidence: <br /> A 360° relocation
               experience.</p>
               
