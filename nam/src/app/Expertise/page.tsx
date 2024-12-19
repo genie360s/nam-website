@@ -29,7 +29,7 @@ export default function Expertise() {
       <NavBar />
       <div className="mx-auto w-[60vw] mt-[3vh]">
         <div className=" mx-auto border-b-4 font-bold  text-2xl w-[6.5em] py-2">
-          <p className="searchable">Our Expertise</p>
+          <p className="searchable" id="expertise">Our Expertise</p>
         </div>
         <div className="mt-8">
           <p className="text-lg text-justify searchable">
