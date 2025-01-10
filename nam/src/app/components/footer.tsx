@@ -46,9 +46,7 @@ export function Footer(){
           <div className="grid grid-rows">
             <div className="row font-bold text-lg text-off-white">Follow Us</div>
             <div className="grid row grid-cols-3 gap-2 sm:gap-x-1 font-medium text-lg text-off-white hover:text-brand-copper">
-            <Link href="https://www.linkedin.com/in/nicole-aishi-mbowe/" target="_blank">
             <div className="cols-1 text-off-white mt-4"><i className="bi bi-linkedin"></i> Linkedin </div>
-            </Link>
             </div>
           </div>
         </div>
