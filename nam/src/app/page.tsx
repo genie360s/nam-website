@@ -19,12 +19,14 @@ export default function Home() {
     <div>
       <div className="flex justify-between mx-auto mt-20 size-16 w-[80vw]">
         <div className="h-96 flex-none">
+          <Link href="/">
           <Image
             src="/images/nam-logo.png"
             alt="Nam & Associates"
             width={200}
             height={200}
           />
+          </Link>
         </div>
         <div className=" flex-auto order-last hidden md:block z-50">
           <div className="grid justify-items-end mt-3 mb-3">
