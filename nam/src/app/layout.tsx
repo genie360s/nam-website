@@ -6,8 +6,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Nam & Associates | Best Law & Legal Firm In Tanzania",
-  description: "Copyrights © Nam & Associates , The Top Legal Advisory Firm in Tanzania , also offering 360 DSP relocation services",
+  title: "NAM & Associates| Discover Dar es Salaam with Confidence",
+  description: "Copyrights © NAM & Associates ,Discover Dar es Salaam with Confidence | The Top Legal Advisory Firm in Tanzania , also offering 360 DSP relocation services",
 };
 
 const centuryGothic = localFont({
@@ -37,6 +37,7 @@ export default function RootLayout({
     
     <html lang="en">
       <head>
+
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Nam & Associates: Your trusted partner for legal, corporate, and relocation services in Tanzania. Specializing in tax advisory, immigration law, company registration, and business setup in Dar es Salaam. NAM & Associates is a leading law firm and relocation service provider in Dar es Salaam, Tanzania. Specializing in corporate law, tax advisory, immigration law, and comprehensive relocation solutions, we help individuals and businesses seamlessly navigate legal and logistical challenges. Experience stress-free transitions and expert legal support in Tanzania's vibrant commercial capital." />
         <meta name="keywords" content="law firm in Dar es Salaam, corporate lawyer in Tanzania, tax advisory, immigration law, company registration, relocation services, business setup, real estate in Tanzania" />
