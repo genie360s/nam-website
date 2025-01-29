@@ -39,15 +39,15 @@ export default function RootLayout({
       <head>
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Nam & Associates: Your trusted partner for legal, corporate, and relocation services in Tanzania. Specializing in tax advisory, immigration law, company registration, and business setup in Dar es Salaam. NAM & Associates is a leading law firm and relocation service provider in Dar es Salaam, Tanzania. Specializing in corporate law, tax advisory, immigration law, and comprehensive relocation solutions, we help individuals and businesses seamlessly navigate legal and logistical challenges. Experience stress-free transitions and expert legal support in Tanzania's vibrant commercial capital." />
+        <meta name="description" content="NAM & Associates: Your trusted partner for legal, corporate, and relocation services in Tanzania. Specializing in tax advisory, immigration law, company registration, and business setup in Dar es Salaam. NAM & Associates is a leading law firm and relocation service provider in Dar es Salaam, Tanzania. Specializing in corporate law, tax advisory, immigration law, and comprehensive relocation solutions, we help individuals and businesses seamlessly navigate legal and logistical challenges. Experience stress-free transitions and expert legal support in Tanzania's vibrant commercial capital." />
         <meta name="keywords" content="law firm in Dar es Salaam, corporate lawyer in Tanzania, tax advisory, immigration law, company registration, relocation services, business setup, real estate in Tanzania" />
-        <meta name="author" content="Nam & Associates" />
+        <meta name="author" content="NAM & Associates" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.namassociates.co.tz" />
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Nam & Associates | Best Law & Legal Firm In Tanzania" />
-        <meta property="og:description" content="Nam & Associates: Your trusted partner for legal, corporate, and relocation services in Tanzania. Specializing in tax advisory, immigration law, company registration, and business setup in Dar es Salaam." />
+        <meta property="og:title" content="NAM & Associates | Best Law & Legal Firm In Tanzania" />
+        <meta property="og:description" content="NAM & Associates: Your trusted partner for legal, corporate, and relocation services in Tanzania. Specializing in tax advisory, immigration law, company registration, and business setup in Dar es Salaam." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.namassociates.co.tz" />
         <meta property="og:image" content="/images/og-image.jpg" />
@@ -58,11 +58,11 @@ export default function RootLayout({
           {JSON.stringify({
             "@context": "http://schema.org",
             "@type": "LegalService",
-            "name": "Nam & Associates",
+            "name": "NAM & Associates",
             "description": "Leading law and relocation service provider in Dar es Salaam, Tanzania.",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Nam & Associates",
+              "streetAddress": "NAM & Associates",
               "addressLocality": "Dar es Salaam",
               "addressCountry": "TZ",
             },
